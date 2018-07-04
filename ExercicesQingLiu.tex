@@ -1,0 +1,158 @@
+	\documentclass[A4, 11pt]{article}
+%packages
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{esint}
+\usepackage[all]{xy}
+%\usepackage{dsfont}
+\usepackage{graphics,graphicx}
+\usepackage{accents}
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{color}
+
+%definition, theoremes etc
+\newtheorem{defin}{D\'efinition}[section]
+\newtheorem{theo}[defin]{Th\'eor\`eme}
+\newtheorem{prop}[defin]{Proposition}
+\newtheorem{cor}[defin]{Corollaire}
+\newtheorem{lem}[defin]{Lemme}
+\newtheorem{rem}[defin]{Remarque}
+\newtheorem{ex}[defin]{Exemple}
+\newtheorem{prob}[defin]{Problème}
+\newtheorem{exer}{Exercise}
+\renewcommand{\theexer}{\empty{}} 
+%ensembles de nombres 
+
+\def\C{{\mathbb C}}
+\def\E{{\mathbb E}}
+\def\N{{\mathbb N}} 
+\def\R{{\mathbb R}} 
+\def\Q{{\mathbb Q}}
+\def\Z{{\mathbb Z}}
+\def\H{{\mathbb H}}
+\def\K{{\mathbb K}}
+\def\F{{\mathbb F}}
+\def\U{{\mathbb U}}
+\def\P{{\mathbb P}}
+\def\Ker{  \operatorname{Ker} }
+\def\Im{  \operatorname{Im} }
+\def\Spec{ \operatorname{Spec}}
+\author{Séverin Philip}
+\begin{document}
+\title{Exercises Qing Liu}
+\maketitle
+
+\section{General properties of Schemes}
+\subsection{Reduced schemes and integral schemes}
+\begin{exer} (4.2)
+\end{exer}
+\begin{proof}
+Le morphisme canonique $\Spec \mathcal{O}_{X,x} \rightarrow X$ est donné par le morphisme 
+$\mathcal{O}_{X}(U) \rightarrow \mathcal{O}_{X,x}$ pour un ouvert affine $U$ de $X$ contenant $x$. On note $\mathcal{O}_{X}(U)=A$ et l' morphisme est celui de localisation en $\mathfrak{p}$ idéal premier associé à $x$. Si $y$ est un point de $U$ qui se spécialise en $x$, $x\in \overline{\{y\}}$, par définition si $\mathfrak{q}$ est l'idéal premier associé à $y$, on a $\mathfrak{q} \subset \mathfrak{p}$ d'où $\mathfrak{q}$ est un idéal premier du localisé $A_{\mathfrak{p}}$. Par suite $y$ est dans l'image de $\Spec A_{\mathfrak{p}} \rightarrow \Spec A$. Il est clair que réciproquement un élément de cette image provient d'un idéal premier de $A_{\mathfrak{p}}$ et donc par localisation d'un idéal premier de $A$ inclus dans $\mathfrak{p}$ ce qui correspond à un point qui se spécialise en $x$. Comme le morphisme $\Spec \mathcal{O}_{X,x} \rightarrow X$ est indépendant du choix de $U$ (Pourquoi ?) cela suffit.
+\end{proof}
+
+\begin{exer}(4.3)
+\end{exer}
+\begin{proof}
+On a une inclusion $\mathcal{O}_K[T] \hookrightarrow K[T]$ qui induit un morphisme 
+$j\colon \Spec K[T] \rightarrow \Spec \mathcal{O}_K [T]$. On montre que c'est une immersion ouverte. Si $\mathfrak{p}\in \Spec K[T]$, $j(\mathfrak{p})=\mathfrak{p}\cap \mathcal{O}_K[T]$. L'image de $j$ est $\Spec \mathcal{O}_K[T] \setminus V(t)$ qui est ouverte. En effet, si $t\in \mathfrak{p}\cap \mathcal{O}_K[T]$ alors $t\in \mathfrak{p}$ et $\mathfrak{p}=K[T]$ ce qui est impossible. Inversement, si $t\notin \mathfrak{p}$ avec $\mathfrak{p}$ idéal premier de $\mathcal{O}_K[T]$ alors par localisation en $S=\mathcal{O}_K[T]\setminus \{0\}$ on a $\mathfrak{p}K[T]$ idéal premier qui vérifie $\mathfrak{p}K[T]\cap \mathcal{O}_K[T]=\mathfrak{p}$. Il reste à voir que $j^{\sharp}_x$ est un isomorphisme en tout point $x\in \Spec K[T]$ ce qui est trivialement le cas (même une égalité). L'idéal $(T)$ est le seul point de $\Spec K[T]$ qui se spécialise en $(T,t)$. (Je crois ?)
+\end{proof}
+\begin{exer}(4.8)
+\end{exer}
+\begin{proof}
+Soit $x$ un point de $X$ et $(U_i)$ les ouverts affines qui recouvrent $X$ (en nombre fini). On suppose que $x\in U_1$ quitte à renuméroté les ouverts. Le point $x$ correspond à un idéal premier $\mathfrak{p}$ contenu dans un idéal maximal $\mathfrak{m}$ de $\mathcal{O}_X(U_1)$ qui lui même correspond à un point fermé de $U_1$. On a donc l'existence de $x_1\in U_1$ fermé dans $U_1$ et $x_1\in \overline{\{x\}}$ la fermeture étant prise dans $X$. Si $x_1$ est fermé dans tous les autres $U_i$ qui le contiennent il est fermé dans $X$. Sinon il existe un $i\in \{2,\dots , n\}$ tel que $x_1\in U_i$ et $x_1$ n'est pas fermé dans $U_i$. On peut à nouveau supposer que $i=2$ et par le même argument qu'avant obtenir $x_2\in U_2$ fermé dans $U_2$ et $x_2\notin U_1$. En répétant le procédé au plus $n$ fois on obtient un point fermé dans tous les ouverts affines $U_j$ qui le contiennent.
+\end{proof}
+\begin{exer}(4.11)
+
+\end{exer}
+\begin{proof}
+\begin{itemize}
+
+\item[$(i)\Rightarrow (ii)$] On montre que $f^{\sharp}(U)$ est injectif pour tout ouvert affine $U$ de $Y$. Soit $g\in \mathcal{O}_Y(U)$ tel que $f^{\sharp}(U)(g)=0$. Pour tout $y=f(x)\in U\cap f(X)$ on a 
+$$f^{\sharp}_x\colon \mathcal{O}_{Y,f(x)} \rightarrow \mathcal{O}_{X,x}$$
+qui est un morphisme local et $f^{\sharp}_x(g)=0\in \mathfrak{m}_x$. D'où $g\in \mathfrak{m}_{f(x)}$. Or l'ensemble $\{y\in U, ~g\in \mathfrak{m}_y\}$ est un fermé de $U$, celui-ci contient $f(X)$ c'est donc $U$ tout entier. Il suit que $g\in \bigcap\limits_{\mathfrak{p}\in \Spec \mathcal{O}_X(U)} \mathfrak{p}$ est nilpotent. Comme $Y$ est réduit $g=0$. Le résultat est vrai sans l'hypothèse $U$ affine en prenant un recouvrement par des ouverts affine.
+\item[$(ii)\Rightarrow (iii)$] Par la proposition 4.18 le morphisme $\mathcal{O}_X(U)\rightarrow \mathcal{O}_{X,x}$ est injectif pour tout $x\in U$ donc en particulier si $V\subset U$ est un ouvert, $\mathcal{O}_X(U)\rightarrow \mathcal{O}_X(V)$ est injectif. En effet le diagramme suivant commute
+$$\xymatrix{
+\mathcal{O}_X(U) \ar[r] \ar[dr] & \mathcal{O}_X(V) \ar[d] \\
+ & \mathcal{O}_{X,x} 
+}$$ 
+Le résultat suit trivialement de cette remarque et de l'injectivité de $\mathcal{O}_Y(V) \rightarrow \mathcal{O}_X(f^{-1}(V))$ par $(ii)$.
+\end{itemize}
+
+\item[$(iii)\Rightarrow (iv)$] Soit $V$ un ouvert de $Y$ contenant $f(\xi_X )$. Le diagramme suivant commute et par $(iii)$ les flèches sont injectives.
+$$\xymatrix{
+\mathcal{O}_Y(V) \ar[r] \ar[d] & \mathcal{O}_X(f^{-1}(V)) \ar[d]\\
+\mathcal{O}_{Y,f(\xi_X)} \ar[r] & \mathcal{O}_{X,\xi_X} 
+}$$
+Comme $\xi_X$ est le point générique de $X$ qui est un schéma entier (integral ?) son idéal maximal associé est $(0)$. Par injectivité et le fait que $f^{\sharp}_{\xi_X}$ est local l'idéal maximal de $f(\xi_X)$ est donc lui même $(0)$. Il suit que $f(\xi_X)=\xi_Y$.
+
+\item[$(iv)\Rightarrow (v)$] Trivial.
+\item[$(v)\Rightarrow (i)$] Comme $Y$ est un schéma entier $\overline{\{\xi_Y\}}=Y$.
+ 
+\end{proof}
+
+\section{Morphisms and base change}
+
+\subsection{The technique of base change}
+
+\begin{prop} 1.4 Démonstration du point d.
+\end{prop}
+ \begin{proof}
+ On considère $U,V$ des sous-schémas ouvert de $X$ et $Y$. Il faut vérifier que $i\times j$ induit un isomorphisme de $U\times_S V$ dans $p^{-1}(U)\cap q^{-1}(V)$. Soit $Z$ un schéma et $f,g$ des morphismes $Z\rightarrow U$, $Z\rightarrow V$. En composant avec les injections de $U,V$ dans $X$ et $Y$ on obtient un diagramme commutatif
+ $$\xymatrix{
+Z \ar[dr] \ar[ddr]_{i\circ f} \ar[rrd]^{j\circ g} & & \\
+& X\times_S Y \ar[r] \ar[d] & Y \ar[d]\\
+ & X \ar[r] & S 
+ }$$
+ Il suit que la flèche du milieu se factorise par $p^{-1}(U)\cap q^{-1}(V)$. Comme le morphisme $i\times  j$ est l'unique morphisme de $U\times_S V$ dans $X\times_S Y$ faisant commuter les diagrammes et se factorisant par $p^{-1}(U)\cap q^{-1}(V)$ c'est un isomorphisme $U\times_S V\simeq p^{-1}(U)\cap q^{-1}(V)$.
+ \end{proof}
+ \begin{exer}(1.7)
+ \end{exer}
+ \begin{proof}
+ On suppose $X,Y$ et $S$ affines, c'est-à-dire $X=\Spec M$, $Y=\Spec N$ et $S=\Spec R$. Le résultat dans le cas général suit du cas affine par recollement (Intuitivement ok, l'idée doit marcher mais un truc détaillé serait bien...).
+On note $f\colon R\rightarrow M$, $g\colon R\rightarrow N$.
+ Soit $(\mathfrak{p}, \mathfrak{q})\in X\times Y$ tels que $\mathfrak{p}\in X_s$, $\mathfrak{q}\in Y_s$ pour un point $s\in S$. On a donc $f^{-1}(\mathfrak{p})=s$ d'où les morphismes 
+ $$\xymatrix{
+R \ar[r]& M \ar[r] & M/\mathfrak{p} \\
+ }$$ 
+ induisent
+  $$\xymatrix{
+R/s \ar[r]\rightarrow & M/\mathfrak{p} \\
+k(s) \ar[r] & k(\mathfrak{p})
+ }$$ 
+ et il en est de même pour $\mathfrak{q}$ et $N$. On a donc des morphismes $M\rightarrow k(\mathfrak{p})$ et $N\rightarrow k(\mathfrak{q})$ tel que le diagramme suivant commute
+ $$\xymatrix{
+k(\mathfrak{p}) \otimes_{k(s)} k(\mathfrak{q}) & & \\
+ & M \otimes_R N \ar@{.>}[ul] & N \ar[l] \ar@/_1pc/[llu] \\
+ &  M \ar[u] \ar@/^1pc/[luu] & R \ar[l] \ar[u]  
+ }$$
+ et donc par propriété du produit tensoriel on obtient l'existence de la flèche en pointillé d'où un morphisme naturel
+ $$\Spec \big( k(\mathfrak{p}) \otimes_{k(s)} k(\mathfrak{q}) \big) \rightarrow X\times_S Y.$$
+ On vérifie maintenant que l'image de ce morphisme est contenu dans l'ensemble 
+ $$\{z\in X\times_S Y, ~p(z)=\mathfrak{p}, q(z)=\mathfrak{q}\}.$$
+ Il faut vérifier que si $I$ est un idéal premier de $k(\mathfrak{p}) \otimes_{k(s)} k(\mathfrak{q})$ alors $\varphi^{-1}(I)$ est l'idéal $\mathfrak{p}$ de $M$ où $\varphi$ est l'application $M\rightarrow k(\mathfrak{p}) \otimes_{k(s)} k(\mathfrak{q})$. Comme $\varphi(\mathfrak{p})=0$ on a une inclusion. Maintenant, si $m\in M\setminus \mathfrak{p}$ est tel que $\varphi(m)\in I$ alors comme $\varphi(m)=\overline{m}\otimes 1$ qui est inversible dans $k(\mathfrak{p}) \otimes_{k(s)} k(\mathfrak{q})$ ce qui est impossible car alors $I=k(\mathfrak{p}) \otimes_{k(s)} k(\mathfrak{q})$. Donc $\varphi^{-1}(I)=\mathfrak{p}$ et ce raisonnement appliqué à $N$ et $\mathfrak{q}$ assure l'inclusion. 
+ 
+ Il faut maintenant voir qu'un idéal $I$ de $M\otimes_R N$ tel que $i^{-1}(I)=\mathfrak{p}$ et $j^{-1}(I)=\mathfrak{q}$ où $i,j$ sont les applications $M\rightarrow M\otimes_R N$, $N\rightarrow M\otimes_R N$ est tel que $M\otimes_R N \rightarrow k(I)$ se factorise par $k(\mathfrak{p}) \otimes_{k(s)} k(\mathfrak{q})$. En effet, $\mathfrak{p}\otimes 1$ est donc dans $I$ et est envoyé sur $0$ dans $k(I)$ donc on a une factorisation
+ $$M\otimes_R N\rightarrow M/\mathfrak{p} \otimes_R N/ \mathfrak{q} \rightarrow k(I).$$
+ Il reste à voir que l'on peut étendre cette dernière flèche à $k(\mathfrak{p}) \otimes_{k(s)} k(\mathfrak{q})$. Il suit donc une factorisation de $k(I)\rightarrow X\times_S Y$ en
+ $$ \xymatrix{
+ k(I)\ar[r] & \Spec \big(k(\mathfrak{p}) \otimes_{k(s)} k(\mathfrak{q})\big)\ar[r] & X\times_S Y. 
+ }$$
+ \end{proof}
+ \begin{exer}(1.10)
+ \end{exer}
+ \section{Some local properties}
+ \subsection{Normal schemes}
+ \begin{exer}(1.4)
+ \end{exer}
+ \begin{proof}
+ Si $X$ est normal alors il est normal en tout point donc en particulier pour les points fermés.
+ 
+ Soit $x\in X$ un point qui n'est pas fermé. Alors par l'exercice 2.4.8 il existe un point fermé $y$ dans $\overline{\{x\}}$. Soit $V$ un ouvert affine contenant $y$, alors si $x\notin V$ on aurait $x\in X\setminus V$ qui est fermé donc en particulier $\overline{\{x\}}\subset X\setminus V$ et donc $y \in X\setminus V$ ce qui est une contradiction. Il suit que $x\in V$ et que l'on obtient $\mathcal{O}_{X,x}$ par localisation de $\mathcal{O}_{X,y}$. Ce dernier est donc réduit, intègre ou normal si $\mathcal{O}_{X,y}$ l'est ce qui prouve l'implication.
+ \end{proof}
+\end{document}
