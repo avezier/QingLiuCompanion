@@ -54,13 +54,22 @@
 \begin{proof}
 Le morphisme canonique $\Spec \mathcal{O}_{X,x} \rightarrow X$ est donné par le morphisme 
 $\mathcal{O}_{X}(U) \rightarrow \mathcal{O}_{X,x}$ pour un ouvert affine $U$ de $X$ contenant $x$. On note $\mathcal{O}_{X}(U)=A$ et l' morphisme est celui de localisation en $\mathfrak{p}$ idéal premier associé à $x$. Si $y$ est un point de $U$ qui se spécialise en $x$, $x\in \overline{\{y\}}$, par définition si $\mathfrak{q}$ est l'idéal premier associé à $y$, on a $\mathfrak{q} \subset \mathfrak{p}$ d'où $\mathfrak{q}$ est un idéal premier du localisé $A_{\mathfrak{p}}$. Par suite $y$ est dans l'image de $\Spec A_{\mathfrak{p}} \rightarrow \Spec A$. Il est clair que réciproquement un élément de cette image provient d'un idéal premier de $A_{\mathfrak{p}}$ et donc par localisation d'un idéal premier de $A$ inclus dans $\mathfrak{p}$ ce qui correspond à un point qui se spécialise en $x$. Comme le morphisme $\Spec \mathcal{O}_{X,x} \rightarrow X$ est indépendant du choix de $U$ (Pourquoi ?) cela suffit.
+
+{\color{blue} A mon avis ça dépend pas du choix de l'ouvert car si tu prends un autre ouvert $V$, tu peux trouver un affine $W$ dans $U\cap V$. Alors tu écris un diagramme commutatif avec tous les $\mathcal{O}_X(X)$, $\mathcal{O}_X(U)$, $\mathcal{O}_X(V)$, $\mathcal{O}_X(W)$, les flèches de restrictions et les flèches vers $\mathcal{O}_{X,x}$. Ensuite tu appliques $\Spec$ et tu vois que tous les morphismes coïncident.}
+
 \end{proof}
 
 \begin{exer}(4.3)
 \end{exer}
 \begin{proof}
 On a une inclusion $\mathcal{O}_K[T] \hookrightarrow K[T]$ qui induit un morphisme 
-$j\colon \Spec K[T] \rightarrow \Spec \mathcal{O}_K [T]$. On montre que c'est une immersion ouverte. Si $\mathfrak{p}\in \Spec K[T]$, $j(\mathfrak{p})=\mathfrak{p}\cap \mathcal{O}_K[T]$. L'image de $j$ est $\Spec \mathcal{O}_K[T] \setminus V(t)$ qui est ouverte. En effet, si $t\in \mathfrak{p}\cap \mathcal{O}_K[T]$ alors $t\in \mathfrak{p}$ et $\mathfrak{p}=K[T]$ ce qui est impossible. Inversement, si $t\notin \mathfrak{p}$ avec $\mathfrak{p}$ idéal premier de $\mathcal{O}_K[T]$ alors par localisation en $S=\mathcal{O}_K[T]\setminus \{0\}$ on a $\mathfrak{p}K[T]$ idéal premier qui vérifie $\mathfrak{p}K[T]\cap \mathcal{O}_K[T]=\mathfrak{p}$. Il reste à voir que $j^{\sharp}_x$ est un isomorphisme en tout point $x\in \Spec K[T]$ ce qui est trivialement le cas (même une égalité). L'idéal $(T)$ est le seul point de $\Spec K[T]$ qui se spécialise en $(T,t)$. (Je crois ?)
+$j\colon \Spec K[T] \rightarrow \Spec \mathcal{O}_K [T]$. On montre que c'est une immersion ouverte. Si $\mathfrak{p}\in \Spec K[T]$, $j(\mathfrak{p})=\mathfrak{p}\cap \mathcal{O}_K[T]$. L'image de $j$ est $\Spec \mathcal{O}_K[T] \setminus V(t)$ qui est ouverte. En effet, si $t\in \mathfrak{p}\cap \mathcal{O}_K[T]$ alors $t\in \mathfrak{p}$ et $\mathfrak{p}=K[T]$ ce qui est impossible. Inversement, si $t\notin \mathfrak{p}$ avec $\mathfrak{p}$ idéal premier de $\mathcal{O}_K[T]$ alors par localisation en $S=\mathcal{O}_K[T]\setminus \{0\}$ \textcolor{blue}{($\mathcal{O}_K\setminus \{0\}$?)} on a $\mathfrak{p}K[T]$ idéal premier qui vérifie $\mathfrak{p}K[T]\cap \mathcal{O}_K[T]=\mathfrak{p}$. Il reste à voir que $j^{\sharp}_x$ est un isomorphisme en tout point $x\in \Spec K[T]$ ce qui est trivialement le cas (même une égalité).
+
+{\color{blue} Yes je suis d'accord, en fait pour l'homéomorphisme on peut direct appliquer 2.1.7.c) avec $S=\mathcal{O}_K\setminus \{0\}$. Les morphismes entre les fibres sont bien des égalités je suis d'accord.}
+
+ L'idéal $(T)$ est le seul point de $\Spec K[T]$ qui se spécialise en $(T,t)$. (Je crois ?)
+ 
+{\color{blue} Je suis d'accord car cela revient à chercher les polynômes irréductibles $P$ de $K[T]$ tels que $(P)\cap \mathcal{O}_K[T]\subset (T, t)$. En localisant tu as nécessairement $T| P$ et donc $P=T$. Enfin je crois que c'est bon.}
 \end{proof}
 \begin{exer}(4.8)
 \end{exer}
