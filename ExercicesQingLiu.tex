@@ -144,8 +144,24 @@ k(\mathfrak{p}) \otimes_{k(s)} k(\mathfrak{q}) & & \\
  k(I)\ar[r] & \Spec \big(k(\mathfrak{p}) \otimes_{k(s)} k(\mathfrak{q})\big)\ar[r] & X\times_S Y. 
  }$$
  \end{proof}
+ 
+ \begin{exer}(1.8)
+ \end{exer}
+ \begin{proof}
+ C'est une conséquence de l'exercice précédent. Soit $y\in Y$, il existe un $s\in S$ tel que $y\in Y_s$. Par surjectivité de $X\rightarrow S$ la fibre $X_s$ au dessus de $s$ est non vide donc contient un point $x\in X$. Par l'exercice 1.7 l'ensemble 
+$$\{z\in X\times_S Y, ~p(z)=\mathfrak{p}, q(z)=\mathfrak{q}\}$$
+est homéomorphe à  $\Spec \big( k(\mathfrak{p}) \otimes_{k(s)} k(\mathfrak{q}) \big)$ qui est non vide donc contient au moins un point. Le morphisme $q\colon X\times_S Y$ est donc surjectif.
+  \end{proof}
  \begin{exer}(1.10)
  \end{exer}
+ \begin{proof}
+ Par la propriété universelle du produit fibré en tant qu'ensembles les applications $p\colon X\times_S Y \rightarrow X$ et $q\colon X\times_S Y \rightarrow Y$ donnent l'existence d'une unique application continue $f\colon |X\times_S Y| \rightarrow |X|\times_{|S|} |Y|$. Cette application est surjective par l'exercice 1.7.
+ 
+ On considère le produit tensoriel $\C\otimes_{\R} \C$. On a 
+ $$\C\otimes_{\R}\C= \C\otimes_{\R} \R[X]/(X^2+1)= \C[X]/(X^2+1)=\C(X)/(X+i)(X-i)$$
+ et ce dernier anneau est isomorphe à $\C\times \C$ (Spécifier l'isomorphisme). 
+ Comme il n'y a qu'un point dans $\Spec \C$ le produit fibré des deux ensembles $|\Spec \C|$ sur $|\Spec \R|$ ne contient qu'un seul point. Par contre $\Spec \big(\C \times \C \big)$ contient deux idéaux premiers $(1,0)$ et $(0,1)$. L'application $f$ est donc surjective mais pas injective ces deux points du produit fibré de schémas ayant même image dans le produit fibré d'ensembles. 
+ \end{proof}
  \section{Some local properties}
  \subsection{Normal schemes}
  \begin{exer}(1.4)
@@ -155,4 +171,5 @@ k(\mathfrak{p}) \otimes_{k(s)} k(\mathfrak{q}) & & \\
  
  Soit $x\in X$ un point qui n'est pas fermé. Alors par l'exercice 2.4.8 il existe un point fermé $y$ dans $\overline{\{x\}}$. Soit $V$ un ouvert affine contenant $y$, alors si $x\notin V$ on aurait $x\in X\setminus V$ qui est fermé donc en particulier $\overline{\{x\}}\subset X\setminus V$ et donc $y \in X\setminus V$ ce qui est une contradiction. Il suit que $x\in V$ et que l'on obtient $\mathcal{O}_{X,x}$ par localisation de $\mathcal{O}_{X,y}$. Ce dernier est donc réduit, intègre ou normal si $\mathcal{O}_{X,y}$ l'est ce qui prouve l'implication.
  \end{proof}
+ 
 \end{document}
