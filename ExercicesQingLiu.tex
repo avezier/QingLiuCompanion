@@ -171,6 +171,15 @@ est homéomorphe à  $\Spec \big( k(\mathfrak{p}) \otimes_{k(s)} k(\mathfrak{q})
  et ce dernier anneau est isomorphe à $\C\times \C$ (Spécifier l'isomorphisme). 
  Comme il n'y a qu'un point dans $\Spec \C$ le produit fibré des deux ensembles $|\Spec \C|$ sur $|\Spec \R|$ ne contient qu'un seul point. Par contre $\Spec \big(\C \times \C \big)$ contient deux idéaux premiers $(1,0)$ et $(0,1)$. L'application $f$ est donc surjective mais pas injective ces deux points du produit fibré de schémas ayant même image dans le produit fibré d'ensembles. 
  \end{proof}
+ \subsection{Applications to algebraic varieties}
+ \begin{exer} (2.4)
+ \end{exer}
+ \begin{proof}
+ On va considérer le cas où $S=\Spec k$ pour un corps $k$. Comme $Y$ est de type finie sur $k$, pour $U$ un ouvert affine de $Y$, $\mathcal{O}_Y(U)$ est une $k$-algèbre de type finie. 
+ 
+ Pour un ouvert affine $V$ de $X$ contenant $x$ on a un morphisme canonique $\Spec \mathcal{O}_{X,x} \rightarrow V$ provenant d'un morphisme $\mathcal{O}_X(V) \rightarrow \mathcal{O}_{X,x}$. 
+ On a $f_x^{\sharp}(U)\colon \mathcal{O}_Y(U) \rightarrow \mathcal{O}_{\Spec \mathcal{O}_{X,x}}(f_x^{-1}(U))$. Or $\mathcal{O}_{\Spec \mathcal{O}_{X,x}}(f_x^{-1}(U))$ correspond à une localisation de $\mathcal{O}_{X,x}$ et comme $\mathcal{O}_Y(U)$ est une $k$-algèbre de type finie, l'image de $f_x$ qui est un $k$-morphisme est déterminé par l'image des générateurs de $\mathcal{O}_Y(U)$ sur $k$. Soient $y_1,\dots, y_n$ ces générateurs et $\frac{f_i}{g_i}$ leurs images. Soit $g$ le produit des $g_i$, $D(g)$ est un ouvert affine principal $W$ contenant $x$ de $V$ et l'on a $\frac{f_i}{g_i}\in \mathcal{O}_X(W)$. On peut donc définir le morphisme $f_U$ de $U$ dans $V$ tel que $f_U\circ i_x=f_x$. On peut définir des morphismes $f_U$ de cette façon pour tout ouvert affine $U$ de $Y$ qui se recolle par construction et obtenir le morphisme $f$ souhaité.
+ \end{proof}
  \section{Some local properties}
  \subsection{Normal schemes}
  \begin{exer}(1.4)
@@ -179,6 +188,15 @@ est homéomorphe à  $\Spec \big( k(\mathfrak{p}) \otimes_{k(s)} k(\mathfrak{q})
  Si $X$ est normal alors il est normal en tout point donc en particulier pour les points fermés.
  
  Soit $x\in X$ un point qui n'est pas fermé. Alors par l'exercice 2.4.8 il existe un point fermé $y$ dans $\overline{\{x\}}$. Soit $V$ un ouvert affine contenant $y$, alors si $x\notin V$ on aurait $x\in X\setminus V$ qui est fermé donc en particulier $\overline{\{x\}}\subset X\setminus V$ et donc $y \in X\setminus V$ ce qui est une contradiction. Il suit que $x\in V$ et que l'on obtient $\mathcal{O}_{X,x}$ par localisation de $\mathcal{O}_{X,y}$. Ce dernier est donc réduit, intègre ou normal si $\mathcal{O}_{X,y}$ l'est ce qui prouve l'implication.
+ \end{proof}
+ 
+ \begin{exer}(1.9)
+ \end{exer}
+ \begin{proof}
+ On considère $A$ un anneau de Dedekind et $X=\Spec A$. Soit $x_0\in \Spec A$ un point fermé et $U=X\setminus \{x_0\}$ un ouvert. On note $\mathfrak{m}_0$ l'idéal associé à $x_0$ et $t$ un générateur de $\mathfrak{m_0}$ dans $A_{\mathfrak{m}_0}$. L'idéal $(t)$ se décompose en produit d'idéaux premiers car $A$ est un anneau de Dedekind donc 
+ $$(t)= \mathfrak{m}_0 \prod\limits_{i=1}^{n} \mathfrak{m}_i^{a_i}$$
+ et $V(t)=\{x_0,\dots x_n\}$ les points $x_i$ étant ceux des idéaux $\mathfrak{m}_i$.
+ On note $t_i$ un générateur de $\mathfrak{m}_i$ dans $A_{\mathfrak{m_i}}$. On peut choisir $t_i$ tel que $t_i\notin \mathfrak{m}_0$. En effet, si $\mathfrak{m}_i\setminus \mathfrak{m}_i^2 \subset \mathfrak{m}_0$ on aurait $\mathfrak{m}_i\subset \mathfrak{m}_0$ et donc égalité par maximalité. On a $t=ut_i^{a_i}$ dans $A_{\mathfrak{m_i}}$ où $u$ est inversible donc $t\cdot t_i^{-a_i}=u$ et par suite $f=t^{-1}t_i^{a_i}\prod\limits_{i\neq j} t_j^{a_j} =u'\in A_{\mathfrak{m}_i}=\mathcal{O}_{X,x_i}$. Il existe donc des ouverts $U_i$ contenant $x_i$ tels que $f\in \mathcal{O}_X(U_i)$  et $U_i$ ne contient pas $x_0$. Il est de plus clair que $f\in \mathcal{O}_X(X\setminus V(t))$. Il suit que $f\in \mathcal{O}_X(U)$ car les $U_i$ et $X\setminus V(t)$ forment un recouvrement ouvert de $U$.
  \end{proof}
  
 \end{document}

@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.6)  6 JUL 2018 16:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.6)  7 JUL 2018 10:51
 entering extended mode
 **./ExercicesQingLiu.tex
 (ExercicesQingLiu.tex
@@ -8,19 +7,6 @@ Babel <3.9n> and hyphenation patterns for 69 languages loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.6)  5 JUL 2018 09:52
-entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**ExercicesQingLiu.tex
-(./ExercicesQingLiu.tex
-LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size11.clo
->>>>>>> d98a2e05f73cbb3cd5ac6e6061284f5395d2d660
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -35,17 +21,12 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\latexsym.sty"
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/latexsym.sty
->>>>>>> d98a2e05f73cbb3cd5ac6e6061284f5395d2d660
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 )
-<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
@@ -81,43 +62,6 @@ LaTeX Info: Redefining \cdots on input line 466.
 \big@size=\dimen105
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/11/05 v2.16a AMS math features
-\@mathmargin=\skip43
-
-For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks14
-\ex@=\dimen103
-))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen104
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
-)
-\inf@bad=\count87
-LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count88
-\leftroot@=\count89
-LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count90
-\DOTSCASE@=\count91
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box26
-\strutbox@=\box27
-\big@size=\dimen105
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
->>>>>>> d98a2e05f73cbb3cd5ac6e6061284f5395d2d660
 \macc@depth=\count92
 \c@MaxMatrixCols=\count93
 \dotsspace@=\muskip10
@@ -138,17 +82,10 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks18
-<<<<<<< HEAD
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
-=======
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amscls/amsthm.sty
->>>>>>> d98a2e05f73cbb3cd5ac6e6061284f5395d2d660
 Package: amsthm 2015/03/04 v2.20.2
 \thm@style=\toks19
 \thm@bodyfont=\toks20
@@ -160,24 +97,16 @@ Package: amsthm 2015/03/04 v2.20.2
 \thm@headsep=\skip48
 \dth@everypar=\toks24
 )
-<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
->>>>>>> d98a2e05f73cbb3cd5ac6e6061284f5395d2d660
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup5
 \symAMSb=\mathgroup6
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\esint\esint.sty"
 Package: esint 
 \symlargesymbolsA=\mathgroup7
@@ -186,17 +115,6 @@ Package: esint
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xy.tex" Bootstrap'ing:
 catcodes, docmode, ("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyrecat.tex"
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyidioms.tex")
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/esint/esint.sty
-Package: esint 
-\symlargesymbolsA=\mathgroup7
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xypic/xy.sty
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xypic/xy.tex Bootstrap'ing:
-catcodes, docmode,
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xypic/xyrecat.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xypic/xyidioms.tex)
->>>>>>> d98a2e05f73cbb3cd5ac6e6061284f5395d2d660
 
  Xy-pic version 3.8.9 <2013/10/06>
  Copyright (c) 1991-2013 by Kristoffer H. Rose <krisrose@tug.org> and others
@@ -251,7 +169,6 @@ utility macros; pictures: \xy, positions,
  decorations;
 kernel objects: directionals, circles, text; options; algorithms: directions,
 edges, connections;  Xy-pic loaded)
-<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
@@ -261,16 +178,6 @@ Package: xy 2013/10/06 Xy-pic version 3.8.9
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyall.tex"
  Xy-pic option: All features v.3.8
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xycurve.tex"
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-)
-Package: xy 2013/10/06 Xy-pic version 3.8.9
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xypic/xyall.tex
- Xy-pic option: All features v.3.8
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xypic/xycurve.tex
->>>>>>> d98a2e05f73cbb3cd5ac6e6061284f5395d2d660
  Xy-pic option: Curve and Spline extension v.3.12 curve,
 \crv@cnt@=\count103
 \crvpts@=\toks29
@@ -282,7 +189,6 @@ Package: xy 2013/10/06 Xy-pic version 3.8.9
  circles,
 \L@=\dimen144
  loaded)
-<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyframe.tex"
  Xy-pic option: Frame and Bracket extension v.3.14 loaded)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xycmtip.tex"
@@ -298,23 +204,6 @@ Package: xy 2013/10/06 Xy-pic version 3.8.9
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xycolor.tex"
  Xy-pic option: Colour extension v.3.11 loaded)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xymatrix.tex"
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xypic/xyframe.tex
- Xy-pic option: Frame and Bracket extension v.3.14 loaded)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xypic/xycmtip.tex
- Xy-pic option: Computer Modern tip extension v.3.7
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xypic/xytips.tex
- Xy-pic option: More Tips extension v.3.11 loaded) loaded)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xypic/xyline.tex
- Xy-pic option: Line styles extension v.3.10
-\xylinethick@=\dimen145
- loaded)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xypic/xyrotate.tex
- Xy-pic option: Rotate and Scale extension v.3.8 loaded)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xypic/xycolor.tex
- Xy-pic option: Colour extension v.3.11 loaded)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xypic/xymatrix.tex
->>>>>>> d98a2e05f73cbb3cd5ac6e6061284f5395d2d660
  Xy-pic option: Matrix feature v.3.14
 \Row=\count104
 \Col=\count105
@@ -324,7 +213,6 @@ Package: xy 2013/10/06 Xy-pic version 3.8.9
 \qcount@@=\count107
 \matrixsize@=\count108
  loaded)
-<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyarrow.tex"
  Xy-pic option: Arrow and Path feature v.3.9 path, \ar, loaded)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xygraph.tex"
@@ -366,60 +254,13 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xypic/xyarrow.tex
- Xy-pic option: Arrow and Path feature v.3.9 path, \ar, loaded)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xypic/xygraph.tex
- Xy-pic option: Graph feature v.3.11 loaded) loaded)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xypic/xypdf.tex
- Xy-pic option: PDF driver v.1.7 Xy-pic pdf driver: `color' extension support
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xypic/xypdf-co.tex loaded)
-Xy-pic pdf driver: `curve' extension support
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xypic/xypdf-cu.tex loaded)
-Xy-pic pdf driver: `frame' extension support
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xypic/xypdf-fr.tex loaded)
-Xy-pic pdf driver: `line' extension support
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xypic/xypdf-li.tex loaded)
-Xy-pic pdf driver: `rotate' extension support
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xypic/xypdf-ro.tex loaded)
-loaded)) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 99.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count109
-))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
->>>>>>> d98a2e05f73cbb3cd5ac6e6061284f5395d2d660
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks32
 )
 \Gin@req@height=\dimen146
 \Gin@req@width=\dimen147
 )
-<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\bezos\accents.sty"
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/bezos/accents.sty
->>>>>>> d98a2e05f73cbb3cd5ac6e6061284f5395d2d660
 Package: accents 2006/05/12 v1.3 Math Accent Tools
 \cc@skew=\dimen148
 \cc@wd=\dimen149
@@ -427,7 +268,6 @@ Package: accents 2006/05/12 v1.3 Math Accent Tools
 \cc@group=\count111
 \cc@skewchar=\count112
 )
-<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2016/01/08 3.9n The Babel package
 
@@ -442,22 +282,11 @@ Language: frenchb 2016/01/01 v3.1k French support from the babel system
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2016/01/08 3.9n Babel common definitions
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2017/05/19 3.10 The Babel package
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/babel-french/frenchb.ldf
-Language: frenchb 2017/04/30 v3.3a French support from the babel system
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2017/05/19 3.10 Babel common definitions
->>>>>>> d98a2e05f73cbb3cd5ac6e6061284f5395d2d660
 \babel@savecnt=\count113
 \U@D=\dimen150
 )
 \l@acadian = a dialect from \language\l@french 
 \l@canadien = a dialect from \language\l@french 
-<<<<<<< HEAD
 \FBcolonskip=\skip49
 \FBthinskip=\skip50
 \FB@interchartokenstateORI=\count114
@@ -484,51 +313,13 @@ Package: inputenc 2015/03/17 v1.2c Input encoding file
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2015/12/03 v1.1r UTF-8 support for inputenc
-=======
-\FB@nonchar=\count114
-\FBcolonsp=\toks33
-\FBthinsp=\toks34
-Package babel Info: Making : an active character on input line 362.
-Package babel Info: Making ; an active character on input line 363.
-Package babel Info: Making ! an active character on input line 364.
-Package babel Info: Making ? an active character on input line 365.
-\FBguillsp=\toks35
-\FBguill@level=\count115
-\FB@everypar=\toks36
-\FB@Mht=\dimen151
-\mc@charclass=\count116
-\mc@charfam=\count117
-\mc@charslot=\count118
-\std@mcc=\count119
-\dec@mcc=\count120
-\listindentFB=\skip49
-\descindentFB=\skip50
-\labelwidthFB=\skip51
-\leftmarginFB=\skip52
-\parindentFFN=\dimen152
-\FBfnindent=\skip53
-))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/carlisle/scalefnt.sty)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks37
-\inpenc@posthook=\toks38
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
->>>>>>> d98a2e05f73cbb3cd5ac6e6061284f5395d2d660
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
->>>>>>> d98a2e05f73cbb3cd5ac6e6061284f5395d2d660
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -740,25 +531,11 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+0219 (decimal 537)
    defining Unicode char U+021A (decimal 538)
    defining Unicode char U+021B (decimal 539)
-<<<<<<< HEAD
    defining Unicode char U+01E02 (decimal 7682)
    defining Unicode char U+01E03 (decimal 7683)
    defining Unicode char U+200C (decimal 8204)
    defining Unicode char U+2013 (decimal 8211)
    defining Unicode char U+2014 (decimal 8212)
-=======
-   defining Unicode char U+0232 (decimal 562)
-   defining Unicode char U+0233 (decimal 563)
-   defining Unicode char U+1E02 (decimal 7682)
-   defining Unicode char U+1E03 (decimal 7683)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2010 (decimal 8208)
-   defining Unicode char U+2011 (decimal 8209)
-   defining Unicode char U+2012 (decimal 8210)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2015 (decimal 8213)
->>>>>>> d98a2e05f73cbb3cd5ac6e6061284f5395d2d660
    defining Unicode char U+2018 (decimal 8216)
    defining Unicode char U+2019 (decimal 8217)
    defining Unicode char U+201A (decimal 8218)
@@ -770,22 +547,12 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+2039 (decimal 8249)
    defining Unicode char U+203A (decimal 8250)
    defining Unicode char U+2423 (decimal 9251)
-<<<<<<< HEAD
-=======
-   defining Unicode char U+1E20 (decimal 7712)
-   defining Unicode char U+1E21 (decimal 7713)
->>>>>>> d98a2e05f73cbb3cd5ac6e6061284f5395d2d660
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
->>>>>>> d98a2e05f73cbb3cd5ac6e6061284f5395d2d660
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -825,13 +592,8 @@ File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
 File: omsenc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
->>>>>>> d98a2e05f73cbb3cd5ac6e6061284f5395d2d660
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -854,7 +616,6 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
@@ -872,35 +633,12 @@ Package color Info: Driver file: pdftex.def on input line 143.
 )
 \c@defin=\count118
 \c@exer=\count119
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 147.
-)
-\c@defin=\count121
-\c@exer=\count122
->>>>>>> d98a2e05f73cbb3cd5ac6e6061284f5395d2d660
 
 
 LaTeX Warning: Unused global option(s):
     [A4].
 
-<<<<<<< HEAD
 (ExercicesQingLiu.aux)
-=======
-(./ExercicesQingLiu.aux)
->>>>>>> d98a2e05f73cbb3cd5ac6e6061284f5395d2d660
 \openout1 = `ExercicesQingLiu.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
@@ -916,44 +654,26 @@ LaTeX Font Info:    ... okay on input line 46.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
 LaTeX Font Info:    ... okay on input line 46.
 LaTeX Font Info:    Try loading font information for U+lasy on input line 46.
-<<<<<<< HEAD
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
-=======
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ulasy.fd
->>>>>>> d98a2e05f73cbb3cd5ac6e6061284f5395d2d660
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 46.
 
-<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
->>>>>>> d98a2e05f73cbb3cd5ac6e6061284f5395d2d660
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 46.
 
-<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
->>>>>>> d98a2e05f73cbb3cd5ac6e6061284f5395d2d660
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+esint on input line 46.
 
-<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\esint\uesint.fd"
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/esint/uesint.fd
->>>>>>> d98a2e05f73cbb3cd5ac6e6061284f5395d2d660
 File: uesint.fd 
 )
 Package xypdf Info: Line width: 0.43799pt on input line 46.
 
-<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count120
@@ -968,80 +688,19 @@ Package xypdf Info: Line width: 0.43799pt on input line 46.
 \makeMPintoPDFobject=\count125
 \everyMPtoPDFconversion=\toks37
 )
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count123
-\scratchdimen=\dimen153
-\scratchbox=\box32
-\nofMPsegments=\count124
-\nofMParguments=\count125
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count126
-\MPscratchDim=\dimen154
-\MPnumerator=\count127
-\makeMPintoPDFobject=\count128
-\everyMPtoPDFconversion=\toks40
-) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
->>>>>>> d98a2e05f73cbb3cd5ac6e6061284f5395d2d660
 LaTeX Info: Redefining \degres on input line 46.
 LaTeX Info: Redefining \dots on input line 46.
 LaTeX Info: Redefining \up on input line 46.
 LaTeX Font Info:    Try loading font information for U+euf on input line 56.
-<<<<<<< HEAD
  ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\ueuf.fd"
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 ) [1
 
 {C:/Users/Utilisateur/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] <xyma
 trix 2x2 120>
-<xymatrix 2x2 154> [2] <xymatrix 3x3 290> [3] <xymatrix 3x1 82> <xymatrix 2x2
-86> <xymatrix 3x3 290> [4] <xymatrix 3x1 82> [5] [6] (ExercicesQingLiu.aux) ) 
+[2] <xymatrix 2x2 154> <xymatrix 3x3 290> [3] <xymatrix 3x1 82> <xymatrix 2x2
+86> <xymatrix 3x3 290> [4] <xymatrix 3x1 82> [5] [6] [7] (ExercicesQingLiu.aux)
+ ) 
 Here is how much of TeX's memory you used:
  6571 strings out of 493634
  80547 string characters out of 3143727
@@ -1050,71 +709,29 @@ Here is how much of TeX's memory you used:
  18774 words of font info for 66 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  28i,17n,30p,3259b,751s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C
-:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/cm-super/sfrm1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/cm-super/sfrm1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-supe
-r/sfrm1728.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfti109
-5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/xypic/xyatip10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/xypic/xybtip10.pfb>
-Output written on ExercicesQingLiu.pdf (6 pages, 242798 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eufm7.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/cm-super/sfbx1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/cm-super/sfbx1440.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/c
+m-super/sfrm1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/s
+frm1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1728.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfti1095.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/xypic/xyatip10.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/xypic/xybtip10.pfb>
+Output written on ExercicesQingLiu.pdf (7 pages, 264546 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
-=======
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/ueuf.fd
-File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-) [1
-
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] <xymatr
-ix 2x2 120>
-[2] <xymatrix 2x2 154> <xymatrix 3x3 290> [3] <xymatrix 3x1 82> <xymatrix 2x2
-86> <xymatrix 3x3 290> [4] <xymatrix 3x1 82> [5] (./ExercicesQingLiu.aux) ) 
-Here is how much of TeX's memory you used:
- 7003 strings out of 492995
- 89109 string characters out of 6132704
- 208500 words of memory out of 5000000
- 10384 multiletter control sequences out of 15000+600000
- 18774 words of font info for 66 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 39i,17n,30p,3257b,751s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/us
-r/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/l
-ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/loca
-l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/
-texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
-e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texliv
-e/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2017
-/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2017/tex
-mf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2017/texmf
--dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2017/texmf-d
-ist/fonts/type1/public/xypic/xyatip10.pfb></usr/local/texlive/2017/texmf-dist/f
-onts/type1/public/xypic/xybtip10.pfb>
-Output written on ExercicesQingLiu.pdf (5 pages, 223425 bytes).
-PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
->>>>>>> d98a2e05f73cbb3cd5ac6e6061284f5395d2d660
+ 111 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
