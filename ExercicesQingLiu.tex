@@ -180,6 +180,48 @@ est homéomorphe à  $\Spec \big( k(\mathfrak{p}) \otimes_{k(s)} k(\mathfrak{q})
  Pour un ouvert affine $V$ de $X$ contenant $x$ on a un morphisme canonique $\Spec \mathcal{O}_{X,x} \rightarrow V$ provenant d'un morphisme $\mathcal{O}_X(V) \rightarrow \mathcal{O}_{X,x}$. 
  On a $f_x^{\sharp}(U)\colon \mathcal{O}_Y(U) \rightarrow \mathcal{O}_{\Spec \mathcal{O}_{X,x}}(f_x^{-1}(U))$. Or $\mathcal{O}_{\Spec \mathcal{O}_{X,x}}(f_x^{-1}(U))$ correspond à une localisation de $\mathcal{O}_{X,x}$ et comme $\mathcal{O}_Y(U)$ est une $k$-algèbre de type finie, l'image de $f_x$ qui est un $k$-morphisme est déterminé par l'image des générateurs de $\mathcal{O}_Y(U)$ sur $k$. Soient $y_1,\dots, y_n$ ces générateurs et $\frac{f_i}{g_i}$ leurs images. Soit $g$ le produit des $g_i$, $D(g)$ est un ouvert affine principal $W$ contenant $x$ de $V$ et l'on a $\frac{f_i}{g_i}\in \mathcal{O}_X(W)$. On peut donc définir le morphisme $f_U$ de $U$ dans $V$ tel que $f_U\circ i_x=f_x$. On peut définir des morphismes $f_U$ de cette façon pour tout ouvert affine $U$ de $Y$ qui se recolle par construction et obtenir le morphisme $f$ souhaité.
  \end{proof}
+ \subsection{Some global properties of morphisms}
+ \begin{exer}(3.1)
+ \end{exer}
+ \begin{proof}
+ Par hypothèse les morphismes $f_i\colon f^{-1}(Y_i)\rightarrow Y_i$ sont des immersions fermés et se recollent. Comme $f(X)$ est fermé il suit que $f$ est une immersion fermée topologique. Il reste à voir que les applications locales sur les faisceaux sont surjectives. Or c'est un problème local et on peut donc se restreindre à $Y_i$ où le résultat vient à nouveau de l'hypothèse sur les $f_i$. 
+ \end{proof}
+ \begin{exer}(3.2)
+ \end{exer}
+ \begin{proof}
+ \begin{itemize}
+ \item[$(iii)\Rightarrow (ii)$] Tout morphisme de $X$ dans un schéma $Y$ est séparé, c'est en particulier le cas du morphisme vers $\Spec \Z$ qui est un schéma affine.
+  \item[$(ii)\Rightarrow (i)$] La composition de morphismes séparés est séparé et tout morphisme entre schéma affines est séparé. Par hypothèse il existe $f\colon X\rightarrow \Spec A$ séparé et on a $\Spec A \rightarrow \Spec \Z$ séparé, donc $X\rightarrow \Spec \Z$ est séparé.
+   \item[$(i)\Rightarrow (iii)$] Je n'ai pas réussi mais je pense qu'il faut voir qu'il y a un lien entre le produit fibré sur $\Z$ et sur un schéma $Y$ et obtenir la diagonale de l'un comme image réciproque de la diagonale de l'autre. 
+ \end{itemize}
+ \end{proof}
+ \begin{exer}(3.10)
+ \end{exer}
+ \begin{proof}
+ On a un diagramme commutatif
+$$\xymatrix{
+X \ar@/_/[ddr]_{Id_X} \ar[rd]^{(Id_X,f)} \ar@/^2pc/[rrd]^{f}  & & \\
+& X\times_S Y \ar[r]^{q} \ar[d]_{p} & Y\ar[d] \\
+& X\ar[r] & S \\
+}$$
+Le triangle de gauche est commutatif donc $p\circ (Id_X,f)=Id_X$.
+
+
+On a un autre diagramme commutatif
+$$\xymatrix{
+X\times_S Y \ar@/_/[ddr]_{f\circ p} \ar[rd]^{\varphi} \ar@/^2pc/[rrd]^{q}  & & \\
+& Y\times_S Y \ar[r]^{q_Y} \ar[d]_{p_Y} & Y\ar[d] \\
+& Y\ar[r] & S \\
+}$$
+
+On vérifie que $\Gamma_f$ l'image de $(Id_X,f)$ est $\varphi^{-1}(\Delta_Y)$. 
+Si $x\in X$, l'élément $(Id_X,f)(x)$ est déterminé uniquement (Est-ce vrai ???) par ces deux égalités 
+$$p( (Id_X,f)(x))= x;$$
+$$q ( (Id_X,f)(x))=f(x).$$
+Or si $x\in \varphi^{-1}(\Delta_Y)$, on a $p_Y(\varphi(x))=q_Y(\varphi(x))$ car $\varphi(x)\in \Delta_Y$. D'où
+$$f\circ p (x)=p_Y (\varphi (x))=q_Y(\varphi(x))=q(x).$$
+Donc $x=(Id_X,f)(p(x))$ par la caractérisation précédente. La réciproque est claire en remontant les égalités. 
+ \end{proof}
  \section{Some local properties}
  \subsection{Normal schemes}
  \begin{exer}(1.4)
