@@ -248,5 +248,71 @@ Donc $x=(Id_X,f)(p(x))$ par la caractérisation précédente. La réciproque est
  et $V(t)=\{x_0,\dots x_n\}$ les points $x_i$ étant ceux des idéaux $\mathfrak{m}_i$.
  On note $t_i$ un générateur de $\mathfrak{m}_i$ dans $A_{\mathfrak{m_i}}$. On peut choisir $t_i$ tel que $t_i\notin \mathfrak{m}_0$. En effet, si $\mathfrak{m}_i\setminus \mathfrak{m}_i^2 \subset \mathfrak{m}_0$ on aurait $\mathfrak{m}_i\subset \mathfrak{m}_0$ et donc égalité par maximalité. On a $t=ut_i^{a_i}$ dans $A_{\mathfrak{m_i}}$ où $u$ est inversible donc $t\cdot t_i^{-a_i}=u$ et par suite $f=t^{-1}t_i^{a_i}\prod\limits_{i\neq j} t_j^{a_j} =u'\in A_{\mathfrak{m}_i}=\mathcal{O}_{X,x_i}$. Il existe donc des ouverts $U_i$ contenant $x_i$ tels que $f\in \mathcal{O}_X(U_i)$  et $U_i$ ne contient pas $x_0$. Il est de plus clair que $f\in \mathcal{O}_X(X\setminus V(t))$. Il suit que $f\in \mathcal{O}_X(U)$ car les $U_i$ et $X\setminus V(t)$ forment un recouvrement ouvert de $U$.
  \end{proof}
- 
+\subsection{Regular schemes}
+\begin{defin}(2.1)
+\end{defin} 
+\begin{proof}
+On montre que $\mathfrak{m}_x/\mathfrak{m}_x^2$ est le produit tensoriel de $\mathcal{O}_{X,x}$ modules $\mathfrak{m}_x \otimes_{\mathcal{O}_{X,x}} k(x)$. Soit $\phi\colon \mathfrak{m}_x\times k(x) \rightarrow \mathfrak{m}_x/\mathfrak{m}_x^2$ donné par $\phi(\overline{a},b)=\overline{ab}$ pour $a,b\in \mathcal{O}_{X,x}\times\mathfrak{m}_x$. L'application $\phi$ est $\mathcal{O}_{X,x}$ bilinéaire.
+On considère $f\colon \mathfrak{m}_x\times k(x) \rightarrow Z$ une application bilinéaire. Soient $a,b\in \mathcal{O}_{X,x}\times\mathfrak{m}_x$. Comme $f$ est $\mathcal{O}_{X,x}$ bilinéaire on a $$f(\overline{a},b)=f(a\cdot \overline{1},b)=af(\overline{1},b)=f(\overline{1},ab).$$
+Il reste à voir que l'application $\mathcal{O}_{X,x}$ linéaire $\tilde{f} \colon b \mapsto f(\overline{1},b)$ se factorise par le quotient $\mathfrak{m}_x/\mathfrak{m}_x^2$. Si $b\in \mathfrak{m}_x^2$ par linéarité on peut supposer $b=cd$ avec $c,d\in \mathfrak{m}_x$ et on a $\tilde{f}(b)=f(\overline{1},cd)=f(\overline{c},d)=f(\overline{0},d)=0$. On a donc un diagramme commutatif
+$$\xymatrix{
+k(x)\times \mathfrak{m}_x \ar[r]^{f} \ar[d]_{\phi} & Z\\
+\mathfrak{m}_x/\mathfrak{m}_x^2 \ar[ur] & \\
+}$$
+ce qui donne le résultat.
+
+L'application $f^{\sharp}_x$ est locale donc $f^{\sharp -1}_x(\mathfrak{m}_x^2)=\mathfrak{m}_y^2$ d'où $f^{\sharp}_{x|\mathfrak{m}_y}$ induit 
+$$\tilde{f^{\sharp}}_x\colon \mathfrak{m}_y/\mathfrak{m}_y^2 \rightarrow \mathfrak{m}_x/\mathfrak{m}_x^2.$$
+Soit $g\in T_{X,x}$ on a $g\circ \tilde{f^{\sharp}_x} \colon \mathfrak{m}_y/\mathfrak{m}_y^2 \rightarrow k(x)$. Si $k(y)=k(x)$ on a donc une application canonique 
+$$\begin{array}{lcl}T_{X,x} &\longrightarrow  &T_{Y,y} \\
+g & \longmapsto & g\circ \tilde{f^{\sharp}_x}. 
+\end{array}$$
+Dans le cas général $k(y)\subset k(x)$ et on effectue une extension des scalaires à droite.
+\end{proof}
+\begin{exer}(2.1)
+\end{exer}
+\begin{proof}
+On $f^{\sharp}_x(\mathfrak{m}_x)$ engendre $\mathfrak{m}_x$ si et seulement s'il existe des éléments $a_1,\dots, a_n$ de $\mathfrak{m}_y$ tels que $f^{\sharp}_x(a_i)$ engendre $\mathfrak{m}_x$. Il suit que les $f^{\sharp}_x(a_i)$ forment une partie génératrice de $\mathfrak{m}_x/\mathfrak{m}_x^2$ et donc une forme linéaire $g\in T_{X,x}$ est entièrement déterminé par ses valeurs en ces points d'où l'injectivité de $T_{f,x}$. Réciproquement, si $f^{\sharp}_x(\mathfrak{m}_y)$ n'engendre pas $\mathfrak{m}_x$ alors si $b_1,\dots b_n$ engendre $\mathfrak{m}_x$ et est minimale alors c'est une base de $\mathfrak{m}_x/\mathfrak{m}_x^2$ en tant que $k(x)$-espace vectoriel. Supposons que $b_n$ ne soit pas dans l'image $f^{\sharp}_x(\mathfrak{m}_y)$ alors deux formes linéaires qui coïncident sur $b_1,\dots, b_{n-1}$ et diffèrent sur $b_n$ auront même image par $T_{f,x}$.
+
+(Pas réussi à démontrer la deuxième assertion dans le cas de type finie)
+\end{proof}
+\begin{exer}(2.2)
+\end{exer}
+\begin{proof}
+La variété algébrique affine $\Spec k[x,y,z]/(x^2-yz)$ est de dimension $2$ car il y a une relation algébrique liant $x,y,z$ et donc le degré de transcendance de l'anneau sur $k$ est $2$. L'anneau local en $o=(0,0,0)$ est aussi de dimension $2$ l'idéal associé étant maximal. L'idéal maximal de $\mathcal{O}_{X,o}$ est engendré par $x,y,z$ et la dimension sur $k(o)=k$ de $(x,y,z)/(x,y,z)^2$ est $3$ donc la variété n'est pas régulière en $o$. En effet, la relation $x^2=yz$ ne donne pas d'information modulo $(x,y,z)^2$ et donc $(x,y,z)/(x,y,z)^2$ est engendré par $x,y,z$. 
+
+Le critère Jacobien donne que l'anneau est régulier en tout point de $X(k)$ sauf $(0,0,0)$, la matrice étant
+$$\begin{bmatrix}
+2x & -z & -y
+\end{bmatrix}$$
+donc de rang $1$ partout sauf au point $0$. 
+
+(Pour la normalité il n'y a pas de critère ? )
+
+L'anneau $A=k[x,y,z]/(x^2-yz)$ est normal. Soit $\varphi\colon k[x,y,z]\rightarrow k[S,T]$ l'application défini par $\varphi(x)=ST$, $\varphi(y)=S^2$ et $\varphi(z)=T^2$. Alors le noyau de $\varphi$ est $(x^2-yz)$. L'inclusion $(x^2-yz)\subset \Ker \varphi$ est par définition. Pour l'inclusion réciproque soit $f$ dans le noyau, on effectue la divison de $f$ par $(x^2-yz)$ dans l'anneau $k[y,z][x]$. On obtient $f=g(x^2-yz)+r$ où $\deg_x r \leq 1$. On a $r=a(y,z)x+b(y,z)$ et de plus, $\varphi(r)=0$. Il suit $a(S^2,T^2)ST+b(S^2,T^2)=0$ ce qui est possible seulement si $a=b=0$ par considération des degrés en $S$ ou $T$. On a obtenu que $A\simeq k[S^2,T^2,ST]$. En particulier c'est un sous-anneau de $k[S,T]$ est l'extension est entière car $T$ est racine de $X^2-T^2$ et de même pour $S$. On en déduit à nouveau que $A$ est de dimension $2$. Finalement comme $k[S,T]$ est factoriel il est normal. Donc si $f\in \mathrm{Frac}(k[S^2,T^2,ST)$ est entier sur celui-ci on a $f\in k[S,T]$ donc pour $f=\frac{P}{Q}$ on obtient
+$$P=R(S,T)Q.$$
+Il reste à remarque qu'un élément $h=\sum a_{ij}S^iT^j\in k[S,T]$ appartient à $k[S^2,T^2,ST]$ si et seulement si $a_{ij}=0$ pour $i-j$ impair. On en déduit une contradiction si $R$ n'appartient pas à $k[S^2,T^2,ST]$.
+\end{proof}
+\begin{exer}(2.3)
+\end{exer}
+\begin{proof}
+a) En utilisant le critère Jacobien on obtient que tous les points sont lisses (donc réguliers) sauf peut être $(0,0)$ mais celui-ci n'est pas sur la variété.
+
+b) La fibre spéciale est donné par le produit tensoriel
+$$\mathcal{O}_K [x,y]/(x^2+y^3+t^n)\otimes_{\mathcal{O}_K} \mathcal{O}_K/\mathfrak{m}=\mathcal{O}_K/\mathfrak{m} \otimes_{\mathcal{O}_K} \mathcal{O}_K = k[x,y]/(x^2+y^3).$$
+
+Le schéma affine associé est réduit si et seulement si $(x^2+y^3)$ est radical. Comme $k[x,y]$ est factoriel il suffit de montrer que $x^2+y^3$ est premier. Dans $k[y][x]$ si on a
+$$(a(y)x+b(y))(c(y)x+d(y))=x^2+y^3$$
+alors $a(y)c(y)=1$, $a(y)d(y)+b(y)c(y)=0$ et $b(y)d(y)=y^3$. 
+La première égalité donne $a(y)=\lambda\in k^*$ et $c(y)=\lambda^{-1}$. Il suit par la deuxième que les degrés en $y$ de $b$ et $d$ sont égaux et donc la troisième égalité ne peut avoir lieu. L'anneau est réduit et le lemme 1.18 permet de conclure à la normalité. 
+
+
+(Il faut encore montrer la platitude des $\mathcal{O}_X(U)$ et normalité de $X_K$)
+
+c) L'anneau $A_{\mathfrak{m}}$ est de dimension $2$ où $\mathfrak{m}$ est l'idéal maximal engendré par $(x,y,t)$. On a $\mathfrak{m}^2=(t^2,tx,ty,x^2,xy,y^2)$ et donc
+$$x^2+y^3+t^n=0 \Rightarrow t^n=0 \mod \mathfrak{m}^2.$$
+Il suit que si $n=1$ on a $\mathfrak{m}/\mathfrak{m^2}$ engendré par $(x,y)$ donc le point est régulier. Si $n>1$, il n'y a pas de nouvelles relations et le point est singulier. 
+
+(J'aimerai bien une interprétation de ce qu'il se passe quand $n>1$ c'est vraiment bizarre ce truc)
+\end{proof}
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.6)  12 JUL 2018 13:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.6)  17 JUL 2018 12:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -761,7 +761,8 @@ Overfull \hbox (0.58128pt too wide) in paragraph at lines 194--195
 existe $\OML/cmm/m/it/10.95 f [] [] X \OMS/cmsy/m/n/10.95 !
  []
 
-[6] <xymatrix 3x3 325> <xymatrix 3x3 325> [7] [8] (./ExercicesQingLiu.aux) ) 
+[6] <xymatrix 3x3 325> <xymatrix 3x3 325> [7] [8] <xymatrix 2x2 134> [9]
+[10] [11] (./ExercicesQingLiu.aux) ) 
 Here is how much of TeX's memory you used:
  7005 strings out of 492995
  89132 string characters out of 6132704
@@ -770,33 +771,33 @@ Here is how much of TeX's memory you used:
  18774 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,17n,30p,3257b,850s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/u
-sr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/l
-ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/201
-7/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2017/
-texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2017/te
-xmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2017/texm
-f-dist/fonts/type1/public/xypic/xyatip10.pfb></usr/local/texlive/2017/texmf-dis
-t/fonts/type1/public/xypic/xybtip10.pfb>
-Output written on ExercicesQingLiu.pdf (8 pages, 253752 bytes).
+{/usr/local/texlive/2017/texmf-dist/fonts/e
+nc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2017/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfont
+s/euler/eufm10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfo
+nts/euler/eufm7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
+onts/symbols/msbm10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
+cm-super/sfbx1095.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm
+-super/sfbx1200.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-s
+uper/sfbx1440.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-sup
+er/sfrm1095.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super
+/sfrm1200.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/s
+frm1728.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sft
+i1095.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/xypic/xyatip10
+.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/xypic/xybtip10.pfb>
+
+Output written on ExercicesQingLiu.pdf (11 pages, 273601 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
+ 125 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
