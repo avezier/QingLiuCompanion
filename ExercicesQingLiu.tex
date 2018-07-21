@@ -219,16 +219,19 @@ Si $x\in X$, l'élément $(Id_X,f)(x)$ est déterminé uniquement (Est-ce vrai ?
 $$p( (Id_X,f)(x))= x;$$
 $$q ( (Id_X,f)(x))=f(x).$$
 
-{\color{blue} Oui, soit $z\in X\times_S Y$, on a l'équivalence
+Or si $x\in \varphi^{-1}(\Delta_Y)$, on a $p_Y(\varphi(x))=q_Y(\varphi(x))$ car $\varphi(x)\in \Delta_Y$. D'où
+$$f\circ p (x)=p_Y (\varphi (x))=q_Y(\varphi(x))=q(x).$$
+Donc $x=(Id_X,f)(p(x))$ par la caractérisation précédente. La réciproque est claire en remontant les égalités. 
+
+{\color{blue} J'arrive pas à montrer la caractérisation... Je sais pas si c'est vrai en fait. Soit $z\in X\times_S Y$, on voudrait montrer l'équivalence
 \begin{center}
 $z\in \Gamma_f \iff \exists x \in X$ tel que $p(z)=x$ et $q(z)=f(x)$
 \end{center} 
 L'implication directe, c'est juste le premier diagramme que t'as écrit. Pour la réciproque
-}
+c'est pas clair du tout...
 
-Or si $x\in \varphi^{-1}(\Delta_Y)$, on a $p_Y(\varphi(x))=q_Y(\varphi(x))$ car $\varphi(x)\in \Delta_Y$. D'où
-$$f\circ p (x)=p_Y (\varphi (x))=q_Y(\varphi(x))=q(x).$$
-Donc $x=(Id_X,f)(p(x))$ par la caractérisation précédente. La réciproque est claire en remontant les égalités. 
+Maintenant la manière de résoudre la question dans l'esprit géométrie algébrique (cad en ne comprenant plus rien :-D), c'est de faire comme dans EGA I.5.3.11 :-D. En fait le morphisme graphe est obtenu par changement de base du $Y\times_S Y$-schéma $X\times_S Y$ le long du morphisme diagonal $\Delta_Y$. En fait ça c'est vrai dans toute catégorie pourvue de produits fibrés. Maintenant, si $Y$ est séparé, $\Delta_Y$ est une immersion fermée. Or, le fait d'être une immersion fermée est préservée par changement de base (faut que je relise la preuve de ca, on l'avait vu dans stacks, c'est aussi dans EGA). Cela torche la question 1. Je crois qu'on a aussi directe la deuxième question de l'exo, car si on considère $(Id_X,f)$ corestreinte à son image c'est un isomorphisme car bijectif avec $p\circ (Id_X,f)= Id_X$, donc forcément $(Id_X,f)\circ p=Id_{X\times_S Y}$. En fait tous les sous-schémas de $X\times_S Y$ tels que la restriction de $p$ à ce sous-schéma définisse un isomorphisme avec $X$ sont des sous schéma graphe d'un morphisme (Cf EGA I.5.3.11).}
+
  \end{proof}
  \section{Some local properties}
  \subsection{Normal schemes}
