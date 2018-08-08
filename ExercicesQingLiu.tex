@@ -47,6 +47,45 @@
 \title{Exercises Qing Liu}
 \maketitle
 
+
+\section{Some topics in commutative algebra}
+\subsection{Tensor products}
+\begin{exer}(1.3)
+\end{exer}
+\begin{proof}
+On a des applications canoniques
+$$M\otimes N \rightarrow M\otimes N/N' \rightarrow M/M' \otimes N/N'.$$
+On note $\phi$ la composée qui est surjective. Par le corollaire 1.13 on sait que le noyau de la première flèche est $id\otimes j=j_M$ où $j$ est l'inclusion de $N'$ dans $N$ et le noyau de la deuxième $i \otimes id=i_{N/N'}$ avec $i$ l'inclusion de $M'$ dans $M$. On a donc $\Im i_N+\Im j_M \subset \Ker \phi$. Maintenant si $z\in \Ker \phi$, la deuxième flèche est nulle donc l'image de $z$ par la première est dans $\Im i_{N/N'}$, c'est-à-dire une somme finie d'éléments de la forme $x\otimes \bar{y}$ avec $x\in M'$. Il peut s'ajouter à cela une somme finie d'éléments du noyau de la première flèche. Dans tous les cas on a $z\in \Im i_N +\Im j_M$. 
+
+La deuxième partie découle directement, on a 
+$$\Z/n\Z \otimes \Z/m\Z\simeq (\Z\otimes \Z)/(\Im i+\Im j).$$
+De plus, $\Im i \simeq n\Z$ et $\Im j \simeq m\Z$ en tant que $Z$-modules donc leur somme est $n\Z+m\Z= l\Z$. 
+\end{proof}
+
+\subsection{Flatness}
+\begin{exer}(2.4)
+
+\end{exer}
+\begin{proof}
+\begin{itemize}
+\item[$(i)\Rightarrow (ii)$] On suppose que $I\neq I^2$. Alors on a une application injective (l'inclusion) $I\rightarrow A$. On tensorise avec $A/I$ et on obtient
+$$I\otimes A/I \rightarrow A \otimes A/I \simeq A/I.$$
+Si $x\in I\setminus I^2$, on a $x\otimes \bar{1}$ non nul dans $I\otimes A/I$ mais son image dans $A/I$ est nulle, l'application obtenu en tensorisant n'est pas injective, $A/I$ n'est pas plat sur $A$. 
+
+\item[$(ii)\Rightarrow (iii)$] Par le lemme de Nakayama il existe $z\in I$ tel que $I=zI$. Par suite, $(z)=I$. On a en particulier $(z)=(z^2)$ d'où $z=\lambda z^2$ avec $\lambda\in A$. On pose $e=\lambda z$ et on a $e^2=e$. Il reste à voir que $(z)=(e)$. Une inclusion est triviale, pour l'autre, on a $z=\lambda z^2= ez \in (e)$. On a donc montrer que $I=eA$ avec $e$ idempotent. 
+
+\item[$(iii)\Rightarrow (i)$] Soit $f\colon N\rightarrow N'$ une application injective entre deux $A$-modules. On considère $f\otimes id\colon N\otimes A/I \rightarrow N'\otimes A/I$. Soit $x\otimes \bar{y}$ un élément du noyau de cette application. Alors $f(x)\otimes \bar{y}=0$ donne que $f(x)=\lambda \cdot d$ avec $d\in N'$ et $\lambda \in I$. On a $\lambda=ae$ avec $a\in A$ par $(iii)$. Alors, $f(ex)=ae^2\cdot d= f(x)$, donc $x=ex$ et $x\otimes \bar{y}=0$. 
+
+(Ici je ne suis pas sur que considérer un élément de la forme $x\otimes y$ suffise... Il faudrait prendre un élément général qui est une somme de ces trucs et alors je crois pas que l'argument marche?)
+\end{itemize}
+\end{proof}
+\begin{exer}(2.5)
+\end{exer}
+\begin{proof}
+Si $A$ est un corps tout $A$-module est libre donc plat sur $A$. 
+
+Sinon, il existe un idéal non nul propre $I\subset A$ et par l'exercice précédent, $A/I$ est plat sur $A$ si et seulement si $I=(e)$ pour un idempotent $e$ de $A$. Comme $A$ est supposé intègre il n'a pas d'idempotent et donc $A/I$ n'est pas plat sur $A$.
+\end{proof}
 \section{General properties of Schemes}
 \subsection{Reduced schemes and integral schemes}
 \begin{exer} (4.2)
