@@ -346,4 +346,38 @@ Il suit que si $n=1$ on a $\mathfrak{m}/\mathfrak{m^2}$ engendré par $(x,y)$ do
 
 (J'aimerai bien une interprétation de ce qu'il se passe quand $n>1$ c'est vraiment bizarre ce truc)
 \end{proof}
+\subsection{Flat morphisms and smooth morphisms}
+\begin{lem}(3.20)
+\end{lem}
+\begin{proof}
+(Je pense avoir compris de loin, mais j'aimerai bien une démonstration claire du fait que $\mathcal{O}_{X_y,x}= \mathcal{O}_{X,x}\otimes k(y)$, c'est-à-dire que l'anneau local de la fibre est simplement pris en tensorisant avec $k(y)$.)
+
+On se place dans le cas où $Y=\Spec B$ est affine.
+
+Tout d'abord on a, comme dans la démonstration du lemme $3.7$ $\mathcal{O}_{X,x}/\mathfrak{m}_y\mathcal{O}_{X,x}=\mathcal{O}_{X,x}\otimes B/\mathfrak{m}_y=\mathcal{O}_{X_y,x}$. Il faut donc voir que ce dernier anneau est $k(x)$. Comme on a supposé $X_y$ fini, c'est un schéma affine de dimension $0$ noethérien. L'anneau local $\mathcal{O}_{X_y,x}$ est donc de dimension $0$ et réduit ce qui assure que l'unique idéal maximal est $(0)$ donc que c'est un corps, le corps résiduel étant $k(x)$ c'est $k(x)$. La condition est donc bien suffisante.
+
+Maintenant si $f$ est non ramifié on a $k(x)=\mathcal{O}_{X,x}/\mathfrak{m}_y\mathcal{O}_{X,x}=\mathcal{O}_{X_y,x}$ pour tout $x\in X_y$. La dimension de la fibre est donc $0$ et elle est réduite. 
+\end{proof}
+\begin{exer}(3.1)
+\end{exer}
+\begin{proof}
+C'est une application directe du corollaire $2.12$. En effet, on a 
+$$\mathcal{O}_{X_s,x}=\mathcal{O}_{X,x}/\mathfrak{m}_s\mathcal{O}_{X,x}=\mathcal{O}_{X,x}/t\mathcal{O}_{X,x}$$
+par hypothèse et l'anneau $\mathcal{O}_{X,x}$ est régulier.
+\end{proof}
+\begin{exer}(3.2)
+\end{exer}
+\begin{proof}
+Le fait que le morphisme est quasi-fini assure que pour tout $x\in X$ qui n'est pas fermé il existe un point fermé dans $\overline{\{x\}}$ et donc comme la question est locale on peut se restreindre à $X=\Spec A$ et $Y=\Spec B$ affines.
+
+Le résultat suit alors du diagramme suivant et du fait que la localisation est plate.
+Si $x_1$ n'est pas fermé, il existe $x_2$ dans sa fermeture, donc si $\mathfrak{p}_1$ est l'idéal associé à $x_1$ et $\mathfrak{m}_1$ celui associé à $x_2$ on a $\mathfrak{p}_1 \subset \mathfrak{m}_1$ et le diagramme
+$$\xymatrix{
+\mathcal{O}_{Y,y} \ar[r] \ar[dr] & \mathcal{O}_{X,x_2}\ar[d] \\
+ & \mathcal{O}_{X,x_1}
+}$$
+
+et comme par hypothèse $\mathcal{O}_{X,x_2}$ est plat sur $\mathcal{O}_{Y,y}$ c'est le cas de ses localisés donc de $\mathcal{O}_{X,x_2}$ qui est obtenu par localisation en $\mathfrak{p}_1$. 
+
+\end{proof}
 \end{document}
