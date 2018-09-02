@@ -380,4 +380,34 @@ $$\xymatrix{
 et comme par hypothèse $\mathcal{O}_{X,x_2}$ est plat sur $\mathcal{O}_{Y,y}$ c'est le cas de ses localisés donc de $\mathcal{O}_{X,x_2}$ qui est obtenu par localisation en $\mathfrak{p}_1$. 
 
 \end{proof}
+
+\section{Coherent sheaves and Cech cohomology}
+\subsection{Coherent sheaves on a scheme}
+\begin{exer}(1.1)
+\end{exer}
+\begin{proof}
+Soient $f\colon X\rightarrow Y$ une application entre deux schémas, $\mathcal{F}$ un $\mathcal{O}_X$-module et $\mathcal{G}$ un $\mathcal{O}_Y$-module. On a, pour $U$ ouvert de $X$, 
+$$f^{-1}f_* \mathcal{F}(U)=\lim\limits_{\underset{f(U)\subset V}{\rightarrow}} f_*\mathcal{F}(V)=\lim\limits_{\underset{f(U)\subset V}{\rightarrow}} \mathcal{F}(f^{-1}(V)).$$
+Comme $f(U)\subset V$ on a $U\subset f^{-1}(V)$ d'où l'application de restriction par définition d'un faisceau $\mathcal{F}(f^{-1}(V))\rightarrow \mathcal{G}(U)$. De plus à nouveau par définition d'un faisceau ses applications sont compatibles à la limite directe et donc induise une application canonique $\alpha\colon f^{-1}f_* \mathcal{F} \rightarrow \mathcal{F}$.
+
+
+D'autre part, pour $V$ ouvert de $Y$,
+
+
+$$f_*f^{-1} \mathcal{G}(V)=f^{-1}\mathcal{G}(f^{-1}(V))=\lim\limits_{\underset{f(f^{-1}(V))\subset U}{\rightarrow}}\mathcal{G}(U).$$
+Or $f(f^{-1}(V)\subset V$ donc $\mathcal{G}(V)$ est un élément de la limite directe. Il suit qu'on a une application canonique $\mathcal{G}(V)\rightarrow f_*f^{-1} \mathcal{G}(V)$ qui consiste simplement à prendre la classe d'un élément dans la limite. On en déduit une application $\beta\colon \mathcal{G}\rightarrow f_*f^{-1} \mathcal{G}.$
+
+On peut étendre ces applications au cas de l'image inverse de $\mathcal{O}_X$-modules. 
+On a $f^*f_* \mathcal{F}=f^{-1}f_*\mathcal{F}\otimes_{f^{-1}\mathcal{O}_Y} \mathcal{O}_X$. D'où $\tilde{\alpha} \colon h\otimes t \mapsto t\cdot\beta(h) \in \mathcal{F}$. De la même manière on définit $\tilde{\alpha} \colon h \mapsto 1\otimes \alpha(h)$. 
+
+Il reste à voir que ces applications induisent un isomorphisme 
+$$\mathrm{Hom}_{\mathcal{O}_X}(f^*\mathcal{G}, \mathcal{F})\simeq \mathrm{Hom}_{\mathcal{O}_Y} (\mathcal{G},f_* \mathcal{F}).$$
+Soit $\varphi\colon f^* \mathcal{G}\rightarrow \mathcal{F}$. Alors on obtient une application induite $\tilde{\varphi} \colon f_*f^*\mathcal{G}\rightarrow f_*\mathcal{F}$ et en composant à droite par $\tilde{\beta}$ on obtient une application de $\mathrm{Hom}_{\mathcal{O}_Y} (\mathcal{G},f_* \mathcal{F})$. Le diagramme est le suivant
+$$\xymatrix{
+\mathcal{G} \ar[r]^{\tilde{\beta}} & f_*f^* \mathcal{G} \ar[r]^{\tilde{\varphi}} & f_* \mathcal{F}
+}.$$
+On obtient de la même manière une application inverse. On vérifie avec les formules qu'elles sont inverses l'une de l'autre.
+\end{proof}
 \end{document}
+
+
