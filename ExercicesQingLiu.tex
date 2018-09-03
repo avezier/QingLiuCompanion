@@ -88,6 +88,25 @@ Sinon, il existe un idéal non nul propre $I\subset A$ et par l'exercice précé
 \end{proof}
 \section{General properties of Schemes}
 \subsection{Reduced schemes and integral schemes}
+D'abord un exercice qui n'est pas dans le Qing Liu mais qui vaut le coup.
+\begin{exer} Soit $X$ un schéma. Montrer que $(i)\Rightarrow (ii)\Rightarrow (iii)$ et qu'il y a équivalence dans le cas où l'ensemble des composantes irréductibles de $X$ est localement fini (par exemple si $X$ est localement noethérien),
+\begin{itemize}
+\item[(i)] Les composantes connexes de $X$ sont irréductibles.
+\item[(ii)] Le schéma $X$ est union disjointe de ses composantes irréductibles.
+\item[(iii)] Pour tout $x\in X$ l'anneau $\mathcal{O}_{X,x}$ a un unique idéal premier, son nilradical.
+\end{itemize}
+\end{exer}
+\begin{proof}
+On suppose $(i)$. Comme irréductible implique connexe on a avec $(i)$ l'équivalence et $X$ est toujours union disjointe de ses composantes connexes. 
+
+On suppose $(ii)$. Soit $x\in X$. Il y a une bijection entre l'ensemble des composantes irréductibles qui passent par $X$ et celles de $\Spec \mathcal{O}_{X,x}$. Cela vient de l'immersion ouverte canonique $\Spec \mathcal{O}_{X,x} \rightarrow X$ (Si je ne me trompe pas ?). Par $(ii)$ les composantes irréductibles de $X$ sont disjointes donc une seule passe par $x$. Il suit que $\mathcal{O}_{X,x}$ a un unique idéal premier ce qui est équivalent au fait que son nilradical est premier. Ceci ce montre en utilisant le fait tout idéal premier contient un idéal premier minimal qui est conséquence du lemme de Zorn. On remarque par ailleurs qu'en remontant les arguments on a prouvé que $(iii)$ implique $(ii)$.
+
+Maintenant, en supposant de plus que l'ensemble des composantes irréductibles de $X$ est localement fini on montre d'abord que les composantes irréductibles de $X$ sont ouvertes ce qui permettra de conclure. Soit $x\in X$ et $Z_1\subset X$ la composante irréductible qui contient $x$. Soit $U$ un voisinage ouvert de $x$ qui intersecte un nombre fini de composantes irréductibles $Z_2,\dots, Z_n$ de $X$. Les composantes irréductibles de $U$ sont les $U_i=Z_i\cap U$. Avec la condition $(ii)$ elles sont disjointes dans $U$. On a donc
+$$U_i=U\setminus \bigcup\limits_{j\neq i} U_j$$
+et une union finie de fermés étant fermé, $U_i$ est ouvert dans $U$. Comme $U$ est ouvert dans $X$ cela donne que $U_1$ est un voisinage ouvert de $X$ contenant $x$ inclus dans $Z_1$. Il suit que $Z_1$ est ouvert dans $X$. 
+
+Finalement, les composantes irréductibles étant ouvertes et fermés dans $X$ elles en sont les composantes connexes ce qui donne $(ii)\Rightarrow (i)$. 
+\end{proof}
 \begin{exer} (4.2)
 \end{exer}
 \begin{proof}
@@ -110,10 +129,30 @@ $j\colon \Spec K[T] \rightarrow \Spec \mathcal{O}_K [T]$. On montre que c'est un
  
 {\color{blue} Je suis d'accord car cela revient à chercher les polynômes irréductibles $P$ de $K[T]$ tels que $(P)\cap \mathcal{O}_K[T]\subset (T, t)$. En localisant tu as nécessairement $T| P$ et donc $P=T$. Enfin je crois que c'est bon.}
 \end{proof}
+\begin{exer}(4.6)
+\end{exer}
 \begin{exer}(4.8)
 \end{exer}
 \begin{proof}
 Soit $x$ un point de $X$ et $(U_i)$ les ouverts affines qui recouvrent $X$ (en nombre fini). On suppose que $x\in U_1$ quitte à renuméroté les ouverts. Le point $x$ correspond à un idéal premier $\mathfrak{p}$ contenu dans un idéal maximal $\mathfrak{m}$ de $\mathcal{O}_X(U_1)$ qui lui même correspond à un point fermé de $U_1$. On a donc l'existence de $x_1\in U_1$ fermé dans $U_1$ et $x_1\in \overline{\{x\}}$ la fermeture étant prise dans $X$. Si $x_1$ est fermé dans tous les autres $U_i$ qui le contiennent il est fermé dans $X$. Sinon il existe un $i\in \{2,\dots , n\}$ tel que $x_1\in U_i$ et $x_1$ n'est pas fermé dans $U_i$. On peut à nouveau supposer que $i=2$ et par le même argument qu'avant obtenir $x_2\in U_2$ fermé dans $U_2$ et $x_2\notin U_1$. En répétant le procédé au plus $n$ fois on obtient un point fermé dans tous les ouverts affines $U_j$ qui le contiennent.
+\end{proof}
+\begin{exer}(4.10)
+\end{exer}
+\begin{proof}
+Comme $f$ est quasi-compact et $\Spec A$ est un schéma affine on a que $X=\bigcup\limits_{i=1}^n U_i$ où les $U_i$ sont des ouverts affines, on note $U_i=\Spec B_i$. On a des morphismes $f_{|U_i}\colon \Spec B_i \rightarrow \Spec A$ induit par des morphismes d'anneaux $f_i\colon A \rightarrow B_i$ tels que pour tout $i$ le diagramme suivant commute
+$$\xymatrix{
+A \ar[r]^f \ar[dr]^{f_i} & \mathcal{O}_X(X) \ar[d] \\
+& B_i
+}$$
+la flèche verticale étant l'opération de restriction du faisceau $\mathcal{O}_X$. Il suit par les propriétés de faisceaux (comme les $U_i$ forment un recouvrement) que si pour $x\in I$ il existe des entiers positifs $n_i$ tels que $f_i(x)^{n_i}=0$ alors $f(x)^{N}=0$ où $N$ est le maximum des $n_i$ (qui existe car ils sont en nombres finis). On est donc restreint à démontrer le résultat dans le cas affine. Dans ce cas, $f$ est induit par $f^*\colon A\rightarrow B$ où $X=\Spec B$. On a alors les équivalences suivantes
+\begin{align*}
+f(\Spec B)\subset V(i) & \iff \forall \mathfrak{p}\in \Spec B,~ f(\mathfrak{p})\in V(i) \\
+& \iff  \forall \mathfrak{p}\in \Spec B,~ I\subset f^{*-1}(\mathfrak{p}) \\
+& \iff  \forall \mathfrak{p}\in \Spec B,~f^*(I)\subset \mathfrak{p} \\
+& \iff f^*(I)\subset \bigcap\limits_{\mathfrak{p}\in \Spec B} \mathfrak{p}.
+\end{align*}
+
+ 
 \end{proof}
 \begin{exer}(4.11)
 
