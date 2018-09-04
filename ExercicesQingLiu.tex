@@ -87,6 +87,12 @@ Si $A$ est un corps tout $A$-module est libre donc plat sur $A$.
 Sinon, il existe un idéal non nul propre $I\subset A$ et par l'exercice précédent, $A/I$ est plat sur $A$ si et seulement si $I=(e)$ pour un idempotent $e$ de $A$. Comme $A$ est supposé intègre il n'a pas d'idempotent et donc $A/I$ n'est pas plat sur $A$.
 \end{proof}
 \section{General properties of Schemes}
+\subsection{Schemes}
+\begin{exer}(3.14)
+\end{exer}
+\begin{proof}
+De tout recouvrement ouvert de $X$ on peut extraire un sous-recouvrement fini par quasi-compacité. Par définition d'un schéma $X$ admet un recouvrement ouvert par des ouverts affines, il suit qu'on peut extraire un recouvrement fini par des ouverts affines.
+\end{proof}
 \subsection{Reduced schemes and integral schemes}
 D'abord un exercice qui n'est pas dans le Qing Liu mais qui vaut le coup.
 \begin{exer} Soit $X$ un schéma. Montrer que $(i)\Rightarrow (ii)\Rightarrow (iii)$ et qu'il y a équivalence dans le cas où l'ensemble des composantes irréductibles de $X$ est localement fini (par exemple si $X$ est localement noethérien),
@@ -131,6 +137,16 @@ $j\colon \Spec K[T] \rightarrow \Spec \mathcal{O}_K [T]$. On montre que c'est un
 \end{proof}
 \begin{exer}(4.6)
 \end{exer}
+\begin{proof}
+a) On montre d'abord $(iii)\Rightarrow (ii)$. Si $e$ est un idempotent différent de $0$ ou $1$ de $\mathcal{O}_{X}(X)$ l'ensemble $V(e)$ de $\Spec \mathcal{O}_X(X)$ est fermé et ouvert dans celui-ci. Il est fermé par définition et l'égalité $e(1-e)=0$ assure que si $\mathfrak{p}$ est premier, $e$ ou $1-e$ est dans $\mathfrak{p}$ mais pas les deux. Il suit que $V(e)$ et $V(1-e)$ forment une partition de $\Spec \mathcal{O}_X(X)$ par des fermés. En regardant les anneaux locaux $\mathcal{O}_{X,x}$ la même idée permet de démontrer $(i)\Rightarrow (ii)$. 
+
+Pour $(ii)\Rightarrow (i)$ si $X$ n'est pas connexe il existe deux ouverts $U_1$, $U_2$ qui forment une partition de l'espace. On peut donc par définition d'un faisceau relevé $1\in \mathcal{O}_X(U_1)$ en un élément idempotent différent de $0$, $1$ en recollant avec $0\in \mathcal{O}_X(U_1)$. La même idée permet de démontrer $(ii)\Rightarrow (iii)$. 
+
+b) L'argument est celui pour montrer $(iii)\Rightarrow (i)$. Un idempotent $e$ distinct de $0$, $1$ n'est pas inversible donc dans l'idéal maximal de l'anneau. De même $1-e$ est un tel idempotent donc doit aussi être dans l'idéal maximal ce qui est impossible car alors on aurait $1$ dans cet idéal.
+
+c) C'est l'argument utilisé pour montrer $(ii) \Rightarrow (i)$. Il suffit de vérifier que les idempotents obtenus ainsi en partant des composantes connexes sont indécomposables, ce qui est clair.
+
+\end{proof}
 \begin{exer}(4.8)
 \end{exer}
 \begin{proof}
