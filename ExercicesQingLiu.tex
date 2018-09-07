@@ -275,6 +275,77 @@ est homéomorphe à  $\Spec \big( k(\mathfrak{p}) \otimes_{k(s)} k(\mathfrak{q})
  On a $f_x^{\sharp}(U)\colon \mathcal{O}_Y(U) \rightarrow \mathcal{O}_{\Spec \mathcal{O}_{X,x}}(f_x^{-1}(U))$. Or $\mathcal{O}_{\Spec \mathcal{O}_{X,x}}(f_x^{-1}(U))$ correspond à une localisation de $\mathcal{O}_{X,x}$ et comme $\mathcal{O}_Y(U)$ est une $k$-algèbre de type finie, l'image de $f_x$ qui est un $k$-morphisme est déterminé par l'image des générateurs de $\mathcal{O}_Y(U)$ sur $k$. Soient $y_1,\dots, y_n$ ces générateurs et $\frac{f_i}{g_i}$ leurs images. Soit $g$ le produit des $g_i$, $D(g)$ est un ouvert affine principal $W$ contenant $x$ de $V$ et l'on a $\frac{f_i}{g_i}\in \mathcal{O}_X(W)$. On peut donc définir le morphisme $f_U$ de $U$ dans $V$ tel que $f_U\circ i_x=f_x$. On peut définir des morphismes $f_U$ de cette façon pour tout ouvert affine $U$ de $Y$ qui se recolle par construction et obtenir le morphisme $f$ souhaité.
  \end{proof}
  \subsection{Some global properties of morphisms}
+ Une preuve plus détaillé du fait que les morphismes de type finis se voient sur un recouvrement par des ouverts affines.
+ \begin{lem} Soient $X$ un schéma et $U,V$ deux ouverts affines de $X$ tels que $U\cap V$ est non vide. Alors, $U\cap V= \bigcup U_a$ où les $U_a$ sont des ouverts affines principaux de $U$ et $V$. 
+\end{lem}
+\begin{proof}
+Pour $f\in \mathcal{O}_X(X)$ on note $X_f=\{x\in X,~ f_x\notin \mathfrak{m}_x\}$. Il est clair que pour $U$ ouvert de $X$, $U\cap X_f= U_{f_{|U}}$. En particulier si $U=\operatorname{Spec} A$ est affine on a 
+$$x=\mathfrak{p}\in D(f_{|U})\iff f_{|U}\notin \mathfrak{p}A_{\mathfrak{p}} \iff x\in U, ~f_x \notin \mathfrak{m}_x \iff x\in X_f\cap U.$$ 
+
+Par définition $U\cap V$ est un ouvert de $U$ donc est union des $D(f_i)$, ouverts affines principaux de $U$. Les $D(f_i)$ sont donc des ouverts de $V$ et on a $D(f_i)=\bigcup D(g_{ij})$ ouverts affines principaux de $V$. Par ce qui précède, $D(f_i)\cap D(g_{ij})$ est un ouvert affine principal de $D(f_i)$ donc s'écrit $D( \frac{s_{ij}}{f_i^k})$, $\frac{s_{ij}}{f_i^k}\in \mathcal{O}_X(U)_{f_i}$. Il reste à voir que c'est bien un ouvert affine principal de $U$, donné par $D(s_{ij}f_i)$. En effet, $D(s_{ij}f_i)$ est inclus dans $D(f_i)$ par définition et si $\frac{s_{ij}}{f_i^k}\in \mathfrak{p}$ pour un idéal premier du localisé alors $s_{ij}\in \mathfrak{p}$ dans $\mathcal{O}_X(U)$. 
+\end{proof}
+\begin{prop}
+Soient $X,Y$ deux schémas et $f:X\rightarrow Y$ un morphisme. On suppose qu'il existe un recouvrement de $Y$ par des ouverts affines $V_i=\operatorname{Spec}B_i$ tels que $f^{-1}(V_i)=\bigcup_{j} U_{ij}$ ouverts affines $U_{ij}=\operatorname{Spec} A_{ij}$ et $A_{ij}$ est une $B_i$ algèbre de type fini. Alors $f$ est localement de type fini. C'est-à-dire pour tout ouvert affine $V$ de $Y$ et ouvert affine $U$ de $f^{-1}(V)$, $\mathcal{O}_X(U)$ est une $\mathcal{O}_Y(V)$ algèbre de type fini. 
+\end{prop}
+\begin{proof}
+Soit $V$ un ouvert affine de $Y$. On a $V\cap V_i= \bigcup V_{ik}$ ouverts affines principaux de $V$. De la même façon on a les égalités 
+$$f^{-1}(V_{ik})=\bigcup U_{ij}\cap f^{-1}(V_{ik})=\bigcup U_{ijk}$$
+où les $U_{ijk}$ sont des ouverts affines principaux de $U_{ij}$. Il suit le diagramme commutatif
+$$\xymatrix{
+\mathcal{O}_Y(V) \ar[r]^{loc.} &  \mathcal{O}_Y(V_{ik}) \ar[r] & \mathcal{O}_X (\bigcup U_{ijk}) \ar[r] & \mathcal{O}_X(U_{ijk}) . \\
+ & \mathcal{O}_Y(V_i) \ar[u] \ar[r]^{type~fini}  & \mathcal{O}_X(U_{ij} \ar[ur]^{loc.} & \\
+}$$
+L'anneau $\mathcal{O}_X(U_{ijk})$ est donc une $\mathcal{O}_Y(V_{ik})$ algèbre de type fini et enfin une $B$-algèbre de type fini. 
+
+Soit maintenant $U\subset f^{-1}(V)$ un ouvert affine, $U=\operatorname{Spec} A$. On a, par le lemme, $U=\bigcup U_{\alpha}$, $U_{\alpha}$ ouvert affine principal de $U$ et $U_{ijk}$. Les $\mathcal{O}_X(U_{\alpha}$ sont par localisations en un élément des $\mathcal{O}_X(U_{ijk})$ algèbre de type fini, donc des $B$-algèbres de type fini. Cela veut dire que $A_{a_{\alpha}}$ est une $B$-algèbre de type fini où $U_{\alpha}=D(a_{\alpha}),$ $a_{\alpha}\in A$. Comme la réunion des $U_{\alpha}$ recouvre $A$, on a une relation $\sum a_{\alpha} c_{\alpha}=1$ dans $A$.  En particulier on sait que les $a_{\alpha}$ sont en nombre fini, on note $a_1,\dots ,a_r$. Pour $n\in \N$ fixé soit $M=Nr$ alors on a l'égalité
+$$\big ( \sum\limits_{i=1}^r a_i c_i)^M=1$$
+et les termes du membres de gauches sont des monômes homogènes de degré $M$ en les $a_i$. Comme $M=Nr$ l'un au moins des $a_i$ est à une puissance supérieur à $N$ dans chacun de ces termes. Il suit que l'on peut factoriser et l'on obtient 
+$$\sum\limits_{i=1}^r a_i^Nc_{i,N}=1$$
+où les $c_{i,N}$ sont des polynômes en les $a_i$ et les $c_i$. 
+
+Enfin, comme les $A_{a_i}$ sont engendrés par un nombre fini d'élément sur $B$ on peut choisir des éléments de $A$, on les note $x_{i,k}$, tel que $A_{a_i}=B[x_{i,k}, ~ 1/a_i]$. Soit $C$ la sous-$B$-algèbre de $A$ engendré par les $x_{i,k}$. Pour tout élément $a$ de $A$ il existe un entier $N$ tel que $a a_i^N$ soit dans $C$. On a de plus
+$$a=\sum\limits_{i=1}^r a a_i^N c_{i,N}$$
+donc $a\in C[a_i, c_i]$ qui est une $B$-algèbre de type fini.  
+\end{proof}
+
+On considère ici un schéma $X$ de type fini sur un corps $k$ c'est-à-dire un schéma $X$ avec un morphisme $X\rightarrow \operatorname{Spec} k$ appelé morphisme structurel qui est de type fini. 
+
+\begin{lem} Un point $x\in X$ est fermé si et seulement si le degré de l'extension de $\kappa(x)$ sur $k$ du corps résiduel de $x$ est fini. 
+\end{lem}
+\begin{proof}
+On a le diagramme commutatif suivant
+$$\xymatrix{
+ \operatorname{Spec} \kappa(x) \ar[d] \ar[dr] & \\
+  X \ar[r]^-{type ~fini} & \operatorname{Spec} k  ~.
+}
+$$
+
+Si $x$ est un point fermé la flèche $\operatorname{Spec} \kappa(x) \rightarrow X$ est une immersion fermée donc un morphisme fini. La composé est donc de type fini ce qui donne $\kappa(x)$ comme $k$-algèbre de type fini donc une extension finie de $k$ par le nullstellensatz. 
+
+Inversement, si $\kappa(x)$ est une extension finie de $k$ le morphisme $\operatorname{Spec} \kappa(x) \rightarrow X$ est fini et son image est donc fermée dans $X$. En effet, par hypothèse si un ouvert affine $V$ de $X$ contient $x$, $\kappa(x)$ est finie sur $k$ donc sur $\mathcal{O}_X(V)$.  
+
+\end{proof}
+\begin{lem} Soit $f\colon X\rightarrow Y$ un morphisme de $k$-schémas de type fini. Si $x\in X$ est un point fermé alors $f(x) \in Y$ est fermé. De plus, $\kappa(f(x))$ est une sous-extension de $\kappa(x)$ sur $k$ pour tout $x\in X$. 
+\end{lem}
+\begin{proof}
+On considère le diagramme suivant
+$$\xymatrix{
+ \operatorname{Spec} \kappa(x) \ar[d] \ar[drr]&   &\operatorname{Spec} \kappa(y) \ar[d] \\
+  X \ar[rr]^{f} \ar[dr]&  & Y \ar[ld]\\
+   & \operatorname{Spec} k & 
+}
+$$
+
+Les corps $\kappa(x)$ et $\kappa(y)$ sont des extensions de $k$ en composant les morphismes canoniques avec le morphisme structurel. 
+
+Le morphisme composé des morphismes $f$ et $\operatorname{Spec}\kappa(x) \rightarrow X$ d'un point $x$ de $X$ donne au niveau des faisceaux un morphisme 
+$$g^{\sharp}\colon \mathcal{O}_Y \longrightarrow g_* \mathcal{O}_{\kappa(x)}$$
+qui induit un morphisme d'anneaux locaux 
+$$g^{\sharp}_{f(x)}\colon \mathcal{O}_{Y,f(x)} \longrightarrow \kappa(x).$$
+Comme $\kappa(x)$ est un corps son idéal maximal est l'idéal $(0)$ et l'idéal maximal $\mathfrak{m}_{f(x)}$ de $\mathcal{O}_{Y,f(x)}$ est dans le noyau de $g^{\sharp}_{f(x)}$ donc celui-ci induit un morphisme de corps 
+$$\kappa(y) \simeq \mathcal{O}_{Y,(f(x)}/\mathfrak{m}_{f(x)} \longrightarrow \kappa(x).$$
+
+\end{proof}
  \begin{exer}(3.1)
  \end{exer}
  \begin{proof}
@@ -438,6 +509,24 @@ et comme par hypothèse $\mathcal{O}_{X,x_2}$ est plat sur $\mathcal{O}_{Y,y}$ c
 
 \section{Coherent sheaves and Cech cohomology}
 \subsection{Coherent sheaves on a scheme}
+Une utilisation du lemme de Nakayama pour montrer qu'un morphisme de faisceaux qui se restreint à un isomorphisme sur les points est surjectif dans les bonnes conditions.
+\begin{prop} Soit $X$ un schéma noethérien (ou localement noethérien) et soient $\mathcal{F},$ $\mathcal{G}$ des $\mathcal{O}_X$ modules cohérents. Soit $\alpha \colon \mathcal{F}\rightarrow \mathcal{G}$ un morphisme. On suppose que pour tout $x\in X$ la restriction de $\alpha$ à $\{x\}$ est un isomorphisme, c'est-à-dire que en notant $i\colon \Spec k(x) \rightarrow X$ le morphisme d'image $\{x\}$ on a $i^* \alpha\colon i^*\mathcal{F}\rightarrow i^* \mathcal{G}$ un isomorphisme de faisceaux. Alors $\alpha$ est surjectif.
+\end{prop}
+\begin{proof}
+Il suffit de montrer que les applications locales $\alpha_x\colon \mathcal{F}_x \rightarrow \mathcal{G}_x$ sont surjectives pour tout $x\in X$. Soit $x\in X$, on peut se restreindre à un ouvert affine $U$ voisinage de $x$ tel que $\mathcal{F}_{|U}=M^{\tilde{}}$ et $\mathcal{G}_{|U}=N^{\tilde{}}$. Soit $\mathfrak{p}$ l'idéal associé à $x$ dans $U$. L'hypothèse donne un isomorphisme 
+$$M_{\mathfrak{p}} \otimes_{\mathcal{O}_{X,x}} k(x)\simeq N_{\mathfrak{p}} \otimes_{\mathcal{O}_{X,x}} k(x).$$
+Or l'application locale induite par $\alpha$ est ici $\alpha_{\mathfrak{p}}\colon M_{\mathfrak{p}}\rightarrow N_{\mathfrak{p}}$. 
+On note $P$ le conoyau de cette application. On a des suites exactes, par exactitude à droite du produit tensoriel,
+$$\xymatrix{
+M_{\mathfrak{p}} \ar[r]^{\alpha_{\mathfrak{p}}} & N_{\mathfrak{p}} \ar[r] & P \ar[r] & 0 \\
+M_{\mathfrak{p}}\otimes_{\mathcal{O}_{X,x}} k(x) \ar[r] & N_{\mathfrak{p}}\otimes_{\mathcal{O}_{X,x}} k(x) \ar[r]& P\otimes_{\mathcal{O}_{X,x}} k(x)\ar[r] & 0
+}$$
+
+Par hypothèse $M_{\mathfrak{p}}\otimes_{\mathcal{O}_{X,x}} k(x) \rightarrow  N_{\mathfrak{p}}\otimes_{\mathcal{O}_{X,x}} k(x)$ est un isomorphisme donc $P\otimes_{\mathcal{O}_{X,x}} k(x)=0$. Or 
+$$P\otimes_{\mathcal{O}_{X,x}} k(x)=P\otimes_{\mathcal{O}_{X,x}} \mathcal{O}_{X,x}/\mathfrak{m}=P/ \mathfrak{m} P$$
+
+ où $\mathfrak{m}$ est l'unique idéal maximal de $\mathcal{O}_{X,x}$. Par le lemme de Nakayama il suit que $P=0$ donc que $\alpha_{\mathfrak{p}}$ est surjective. 
+\end{proof}
 \begin{exer}(1.1)
 \end{exer}
 \begin{proof}
