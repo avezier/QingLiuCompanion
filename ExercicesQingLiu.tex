@@ -87,12 +87,64 @@ Si $A$ est un corps tout $A$-module est libre donc plat sur $A$.
 Sinon, il existe un idéal non nul propre $I\subset A$ et par l'exercice précédent, $A/I$ est plat sur $A$ si et seulement si $I=(e)$ pour un idempotent $e$ de $A$. Comme $A$ est supposé intègre il n'a pas d'idempotent et donc $A/I$ n'est pas plat sur $A$.
 \end{proof}
 \section{General properties of Schemes}
+\subsection{Ringed topological spaces}
+\begin{exer}(2.2)
+\end{exer}
+\begin{proof}
+Par définition la condition si $s_x=t_x$ il existe un ouvert $U$ de $X$ tel que $s_{|U}=t_{|U}$ donc la condition est ouverte.
+\end{proof}
+\begin{exer}(2.4)
+\end{exer}
+\begin{proof}
+Il faut montrer que la suite est exacte en $\mathcal{F}(X)$. L'injectivité de $\mathcal{F'}(X)\rightarrow \mathcal{F}(X)$ découle directement de la définition du noyau d'un morphisme de faisceaux. En effet, si on note $f$ le morphisme entre faisceaux, on a $\Ker f(X)=(\Ker f) (X)$. Comme $f$ est injective, $\Ker (f)$ est le faisceau nul donc $(\Ker f)(X)=\{0\}$.
+On note $g\colon \mathcal{F}\rightarrow \mathcal{F''}$. La deuxième condition à prouver est que $\Ker g(X)=\Im f(X)$ sachant que $\Ker g=\Im f$. On a $\Ker g(X)=(\Ker g)(X)=(\Im f)(X)$. On a l'inclusion $\Im f(X)\subset (\Im f)(X)$ donc $\Im f(X) \subset \Ker g(X)$. Il reste à voir l'inclusion inverse. Soit $t\in \Ker g(X)$. On a $t\in (\Im f)(X)$ donc il existe un recouvrement par des ouverts $U_i$ de $X$ tels que $t_{|U_i}=f(s_i)$ pour $s_i\in \mathcal{F'}(U_i)$. Sur $U_i\cap U_j$ on a alors 
+$$f(s_{i|U_i\cap U_j})=t_{|U_i\cap U_j}=f(s_{j|U_i\cap U_j})$$
+et comme $f(U_i\cap U_j)$ est injective cela donne la condition de recollement des $s_i$ en une section $s\in \mathcal{F'}(X)$. Comme les morphismes de faisceaux commutent aux opérations de restrictions on a $f(X)(s)_{|U_i}=f(X)(s_i)=t_{|U_i}$ donc $f(X)(s)=t$. 
+\end{proof}
+\begin{exer}(2.9)
+\end{exer}
+On traite le cas du support à un seul point fermé $x\in X$. Soit $U$ un ouvert contenant $x$. On montre que l'application naturelle $\mathcal{F}(U)\rightarrow \mathcal{F}_x$ est un isomorphisme. Une remarque préliminaire est que comme $\{x\}$ est fermé on a un recouvrement ouvert de $U$ par tout voisinage ouvert de $x$ et $U\setminus \{x\}$. De plus, l'hypothèse assure que $\mathcal{F}(U\setminus\{x\})=\{0\}$. 
+
+Pour l'injectivité, soient $s,t\in \mathcal{F}(U)$ tels que $s_x=t_x$. Alors par définition il existe un voisinage $V$ de $x$ tels que $s_{|V}=t_{|V}$. Il suit par la remarque que $s$ et $t$ coïncide sur un recouvrement ouvert de $U$ donc sont égales.
+
+Pour la surjectivité, soit $s_x\in \mathcal{F}_x$. Alors par définition $s_x$ provient d'une section $s\in \mathcal{F}(V)$ où $V$ est un voisinage ouvert de $x$. Quitte à restreindre en prenant $V'=U\cap V$ on peut considérer que $V\subset U$. Alors à nouveau par la remarque on peut recoller $s$ et $0$ en une section de $U$ qui a pour germe $s_x$.
 \subsection{Schemes}
+\begin{exer}(3.3)
+\end{exer}
+\begin{proof}
+a) Par définition de la topologie l'adhérence $\overline{F}$ de $F$ est de la forme $V(I)$ pour un certain idéal $I$. Il est de plus clair que si $\mathfrak{p}\in F$ alors $\mathfrak{p}\in \overline{F}$ donc $I\subset \mathfrak{p}$. Pour $I=\bigcap\limits_{\mathfrak{p}\in F} \mathfrak{p}$ on a $\overline{F}\subset V(I)$ car alors, $V(I)$ est un fermé contenant $F$. Pour l'inclusion réciproque, si $V(J)$ est un fermé contenant $F$ alors $J\subset \mathfrak{p}$ pour tout $\mathfrak{p}\in F$. Donc $J\subset I$ et $V(J)\supset V(I)$.
+
+b) A nouveau $\overline{\Im f}$ est un fermé de la forme $V(I)$ contenant $\Im f$. On a 
+$$\Im f= \{\varphi^{-1}(\mathfrak{p}),~ \mathfrak{p}\in \Spec B\}.$$
+Par la première question il suit que $\overline{\Im f}=V(I)$ où $I=\bigcap\limits_{\mathfrak{q}\in \Im f} \mathfrak{q}$. Or
+
+\begin{align*}
+\bigcap\limits_{\mathfrak{q}\in \Im f} \mathfrak{q} & =\bigcap\limits_{\mathfrak{p}\in \Spec B} \varphi^{-1}(\mathfrak{p}) \\
+& =\varphi^{-1} \big( \bigcap\limits_{p\in \Spec B} \mathfrak{p} \big) \\
+&=\varphi^{-1}( \sqrt{0})=\sqrt{\varphi^{-1}(0)}
+\end{align*}
+Avec $V(\sqrt{I})=V(I)$ on a le résultat.
+\end{proof}
 \begin{exer}(3.14)
 \end{exer}
 \begin{proof}
 De tout recouvrement ouvert de $X$ on peut extraire un sous-recouvrement fini par quasi-compacité. Par définition d'un schéma $X$ admet un recouvrement ouvert par des ouverts affines, il suit qu'on peut extraire un recouvrement fini par des ouverts affines.
 \end{proof}
+\begin{exer}(3.15)
+\end{exer}
+\begin{proof}
+Par quasi-compacité de $X$ on a un recouvrement de celui-ci par des ouverts affines $U_1,\dots, U_n$. On note $U_i=\Spec B_i$. Le morphisme $f$ définit des morphismes $f_i\colon U_i \rightarrow \Spec A$ qui proviennent de morphismes d'anneaux $\rho_i\colon A\rightarrow B_i$ tels que le diagramme suivant commute
+$$\xymatrix{
+& A=\mathcal{O}_X(X) \ar[d] \\
+A \ar[ur]^{id} \ar[r]^{\rho_i} & B_i .
+}$$
+Il suit que les morphismes $\rho_i$ sont simplement donnés par les opérations de restriction du faisceau $\mathcal{O}_X$. De plus, comme les $U_i$ sont en nombre fini on a 
+$$\overline{f(X)}= \bigcup\limits_{i=1}^n \overline{f_i(U_i)}.$$
+Par un exercice précédent (3.3) on a $\overline{f_i(U_i)}=V(\Ker \rho_i)$. Donc
+$$\overline{f(X)}=\bigcup\limits_{i=1}^n V(\Ker \rho_i)=V\big(\bigcap\limits_{i=1}^n \Ker \rho_i \big).$$
+Or par définition d'un faisceau l'intersection des noyaux des applications de restriction est nulle. Cela donne finalement $\overline{f(X)}=V(\sqrt{0})=\Spec A$.
+\end{proof}
+ 
 \subsection{Reduced schemes and integral schemes}
 D'abord un exercice qui n'est pas dans le Qing Liu mais qui vaut le coup.
 \begin{exer} Soit $X$ un schéma. Montrer que $(i)\Rightarrow (ii)\Rightarrow (iii)$ et qu'il y a équivalence dans le cas où l'ensemble des composantes irréductibles de $X$ est localement fini (par exemple si $X$ est localement noethérien),

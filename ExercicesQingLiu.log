@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.6)  7 SEP 2018 18:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.6)  8 SEP 2018 17:40
 entering extended mode
 **./ExercicesQingLiu.tex
 (ExercicesQingLiu.tex
@@ -695,14 +695,15 @@ LaTeX Info: Redefining \up on input line 46.
 
 {C:/Users/Utilisateur/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 [2]
-LaTeX Font Info:    Try loading font information for U+euf on input line 120.
+LaTeX Font Info:    Try loading font information for U+euf on input line 115.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\ueuf.fd"
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-) [3] [4]
-<xymatrix 2x2 134> [5] <xymatrix 2x2 120> <xymatrix 2x2 154> [6] <xymatrix 3x3
-290> [7] <xymatrix 3x1 82> <xymatrix 2x2 86> <xymatrix 3x3 290> [8] <xymatrix
-3x1 82> [9] [10] <xymatrix 4x2 259> [11] <xymatrix 2x2 130>
-Overfull \hbox (3.06755pt too wide) in paragraph at lines 325--326
+) [3] <xymatrix
+2x2 134> [4] [5] [6] <xymatrix 2x2 134> [7] <xymatrix 2x2 120> <xymatrix 2x2
+154> [8] <xymatrix 3x3 290> [9] <xymatrix 3x1 82> <xymatrix 2x2 86> <xymatrix
+3x3 290> [10] <xymatrix 3x1 82> [11] [12] <xymatrix 4x2 259> [13] <xymatrix
+2x2 130>
+Overfull \hbox (3.06755pt too wide) in paragraph at lines 377--378
 []\T1/cmr/m/n/10.95 Inversement, si $\OML/cmm/m/it/10.95 \OT1/cmr/m/n/10.95 (\
 OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 )$ \T1/cmr/m/n/10.95 est une ex-ten-sion
  fi-nie de $\OML/cmm/m/it/10.95 k$ \T1/cmr/m/n/10.95 le mor-phisme $[] \OML/cmm
@@ -710,36 +711,36 @@ OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 )$ \T1/cmr/m/n/10.95 est une ex-ten-sion
 /cmsy/m/n/10.95 !$
  []
 
-<xymatrix 3x3 249> [12]
-Overfull \hbox (0.58128pt too wide) in paragraph at lines 359--360
+<xymatrix 3x3 249> [14]
+Overfull \hbox (0.58128pt too wide) in paragraph at lines 411--412
 \T1/cmr/m/n/10.95 phisme entre schéma af-fines est sé-paré. Par hy-po-thèse il 
 existe $\OML/cmm/m/it/10.95 f [] [] X \OMS/cmsy/m/n/10.95 !$
  []
 
-<xymatrix 3x3 325> [13] <xymatrix 3x3 325> [14] <xymatrix 2x2 134> [15]
-[16] [17]
-Overfull \hbox (29.23018pt too wide) in paragraph at lines 483--484
+<xymatrix 3x3 325> [15] <xymatrix 3x3 325> [16] <xymatrix 2x2 134> [17]
+[18] [19]
+Overfull \hbox (29.23018pt too wide) in paragraph at lines 535--536
 []\T1/cmr/m/n/10.95 Tout d'abord on a, comme dans la dé-mons-tra-tion du lemme 
 $\OT1/cmr/m/n/10.95 3\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 7$ $\OMS/cmsy/m/n/
 10.95 O[]\OML/cmm/m/it/10.95 =\U/euf/m/n/10.95 m[]\OMS/cmsy/m/n/10.95 O[] \OT1/
 cmr/m/n/10.95 =$
  []
 
-[18] <xymatrix 2x2 120> <xymatrix 4x2 245> [19]
-Overfull \hbox (2.3238pt too wide) in paragraph at lines 544--546
+[20] <xymatrix 2x2 120> <xymatrix 4x2 245> [21]
+Overfull \hbox (2.3238pt too wide) in paragraph at lines 596--598
 []\T1/cmr/m/n/10.95 On peut étendre ces ap-pli-ca-tions au cas de l'image in-ve
 rse de $\OMS/cmsy/m/n/10.95 O[]$\T1/cmr/m/n/10.95 -modules.
  []
 
 
-Overfull \hbox (0.28249pt too wide) in paragraph at lines 548--550
+Overfull \hbox (0.28249pt too wide) in paragraph at lines 600--602
 \T1/cmr/m/n/10.95 et en com-po-sant à droite par $[]\OML/cmm/m/it/10.95 $ \T1/
 cmr/m/n/10.95 on ob-tient une ap-pli-ca-tion de $[][]\OT1/cmr/m/n/10.95 (\OMS/c
 msy/m/n/10.95 G\OML/cmm/m/it/10.95 ; f[]\OMS/cmsy/m/n/10.95 F\OT1/cmr/m/n/10.95
  )$\T1/cmr/m/n/10.95 .
  []
 
-<xymatrix 3x1 96> [20] [21] (ExercicesQingLiu.aux) ) 
+<xymatrix 3x1 96> [22] [23] (ExercicesQingLiu.aux) ) 
 Here is how much of TeX's memory you used:
  6578 strings out of 493634
  80609 string characters out of 3143727
@@ -770,9 +771,9 @@ ram Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Program Files
 type1/public/cm-super/sfti1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/xypic/xyatip10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/xypic/xy
 btip10.pfb>
-Output written on ExercicesQingLiu.pdf (21 pages, 359513 bytes).
+Output written on ExercicesQingLiu.pdf (23 pages, 369944 bytes).
 PDF statistics:
- 159 PDF objects out of 1000 (max. 8388607)
+ 165 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
